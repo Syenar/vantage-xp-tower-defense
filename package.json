@@ -1,0 +1,38 @@
+{
+  "name": "xp-tower-defense",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:web",
+    "build:web": "tsc && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cordova:sync": "npm run build:web && node tools/sync-cordova.mjs",
+    "cordova:prepare": "npm run cordova:sync && cordova prepare",
+    "cordova:requirements": "cordova requirements",
+    "cordova:add:android": "cordova platform add android@15.0.0",
+    "cordova:add:ios": "cordova platform add ios@8.1.1",
+    "cordova:build:android": "npm run cordova:sync && cordova build android",
+    "cordova:run:android": "npm run cordova:sync && cordova run android",
+    "cordova:build:ios": "npm run cordova:sync && cordova build ios",
+    "cordova:run:ios": "npm run cordova:sync && cordova run ios"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4",
+    "@webgpu/types": "^0.1.64",
+    "cordova": "13.0.0",
+    "cordova-android": "15.0.0",
+    "cordova-ios": "8.1.1"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {}
+  }
+}

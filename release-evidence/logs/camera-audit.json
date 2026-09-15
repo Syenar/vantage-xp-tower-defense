@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Camera starts at 100% centered",
+    "pass": true,
+    "detail": {
+      "zoom": 1,
+      "cx": 480,
+      "cy": 270
+    }
+  },
+  {
+    "name": "Accessible camera controls exist",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Zoom-to-cursor preserves world point",
+    "pass": true,
+    "detail": {
+      "error": 1.2710574864626038e-13,
+      "b": {
+        "x": 569.1870967741935,
+        "y": 280.8,
+        "inside": true
+      },
+      "a": {
+        "x": 569.1870967741934,
+        "y": 280.79999999999995,
+        "inside": true
+      },
+      "c": {
+        "zoom": 2,
+        "cx": 524.5935483870967,
+        "cy": 275.4
+      }
+    }
+  },
+  {
+    "name": "Map artwork uses exact gameplay camera transform",
+    "pass": true,
+    "detail": {
+      "tl": {
+        "x": 0.0055947580644347145,
+        "y": 0.004082661290312679,
+        "inside": true
+      },
+      "br": {
+        "x": 960.0025705645162,
+        "y": 540.0040826612903,
+        "inside": false
+      },
+      "map": {
+        "left": -564.609375,
+        "top": -258.390625,
+        "width": 2204.4375,
+        "height": 1240
+      }
+    }
+  },
+  {
+    "name": "Pan moves camera in screen-drag direction",
+    "pass": true,
+    "detail": {
+      "b": {
+        "zoom": 2,
+        "cx": 480,
+        "cy": 270
+      },
+      "a": {
+        "zoom": 2,
+        "cx": 436.4516129032258,
+        "cy": 243.8709677419355
+      },
+      "c": {
+        "zoom": 3,
+        "cx": 185.8064516129032,
+        "cy": 450
+      }
+    }
+  },
+  {
+    "name": "Camera zoom and pan are bounded",
+    "pass": true,
+    "detail": {
+      "zoom": 3,
+      "cx": 185.8064516129032,
+      "cy": 450
+    }
+  },
+  {
+    "name": "Mouse drag pans battlefield",
+    "pass": true,
+    "detail": {
+      "before": {
+        "cam": {
+          "zoom": 2,
+          "cx": 480,
+          "cy": 270
+        },
+        "n": 0
+      },
+      "after": {
+        "cam": {
+          "zoom": 2,
+          "cx": 427.7419354838711,
+          "cy": 243.87096774193546
+        },
+        "n": 0
+      }
+    }
+  },
+  {
+    "name": "Drag gesture never becomes a placement click",
+    "pass": true,
+    "detail": {
+      "before": 0,
+      "after": 0
+    }
+  },
+  {
+    "name": "Placement remains exact after zoom/pan",
+    "pass": true,
+    "detail": {
+      "pad": {
+        "x": 691.29,
+        "y": 211.18,
+        "radius": 24.11,
+        "sourcePx": [
+          1204,
+          368,
+          42
+        ]
+      },
+      "tower": {
+        "id": 1,
+        "type": "ranger",
+        "x": 691.29,
+        "y": 211.18,
+        "padIndex": 4,
+        "xp": 0,
+        "level": 1,
+        "cool": 0,
+        "kills": 0,
+        "targeting": "first",
+        "shots": 0,
+        "totalDamage": 0,
+        "spin": 0,
+        "lastShotTime": 0.44999999999999996,
+        "aim": 0,
+        "levelFlashUntil": 0,
+        "drones": null,
+        "swarmCool": 0,
+        "swarmArmed": false,
+        "builtWave": 0,
+        "catchupTargetXp": 0,
+        "catchupUntilWave": 0
+      }
+    }
+  },
+  {
+    "name": "Mouse wheel zoom works",
+    "pass": true,
+    "detail": {
+      "zoom": 1.5683121854901687,
+      "cx": 480,
+      "cy": 270
+    }
+  },
+  {
+    "name": "Zoom-in control works",
+    "pass": true,
+    "detail": {
+      "before": 1.5683121854901687,
+      "after": 1.9603902318627109
+    }
+  },
+  {
+    "name": "Home resets camera",
+    "pass": true,
+    "detail": {
+      "zoom": 1,
+      "cx": 480,
+      "cy": 270
+    }
+  },
+  {
+    "name": "WASD pans the battlefield",
+    "pass": true,
+    "detail": {
+      "before": {
+        "zoom": 2,
+        "cx": 480,
+        "cy": 270
+      },
+      "after": {
+        "zoom": 2,
+        "cx": 511.35483870967744,
+        "cy": 301.35483870967744
+      }
+    }
+  },
+  {
+    "name": "Arrow keys pan through the same camera path",
+    "pass": true,
+    "detail": {
+      "before": {
+        "zoom": 2,
+        "cx": 511.35483870967744,
+        "cy": 301.35483870967744
+      },
+      "after": {
+        "zoom": 2,
+        "cx": 480,
+        "cy": 270
+      }
+    }
+  },
+  {
+    "name": "Two-finger pinch zoom works",
+    "pass": true,
+    "detail": {
+      "zoom": 1.9090909090909092,
+      "cx": 480.00000000000006,
+      "cy": 270
+    }
+  },
+  {
+    "name": "Single-touch drag pans battlefield",
+    "pass": true,
+    "detail": {
+      "b": {
+        "zoom": 2,
+        "cx": 480,
+        "cy": 270
+      },
+      "a": {
+        "zoom": 2,
+        "cx": 440.80645161290323,
+        "cy": 250.40322580645162
+      }
+    }
+  },
+  {
+    "name": "On-screen reset control returns to full-map view",
+    "pass": true,
+    "detail": {
+      "zoom": 1,
+      "cx": 480,
+      "cy": 270
+    }
+  },
+  {
+    "name": "No browser JavaScript errors",
+    "pass": true,
+    "detail": []
+  }
+]

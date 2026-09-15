@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "shared": {
+    "gameplaySpriteSheet": "assets/enemies/enemy_sprite_sheet.png",
+    "iconAtlas": "assets/enemies/enemy_icon_atlas.png",
+    "portraitInspectAtlas": "assets/enemies/enemy_portrait_inspect_atlas.png",
+    "statusAtlas": "assets/enemies/enemy_status_atlas.png"
+  },
+  "enemies": [
+    {
+      "kind": "grunt",
+      "name": "Grunt",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 0,
+        "col": 0,
+        "row": 0
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 0,
+        "col": 0,
+        "row": 0
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "kind": "runner",
+      "name": "Runner",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 1,
+        "col": 1,
+        "row": 0
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 1,
+        "col": 1,
+        "row": 0
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "kind": "brute",
+      "name": "Brute",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 2,
+        "col": 2,
+        "row": 0
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 2,
+        "col": 2,
+        "row": 0
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "kind": "armored",
+      "name": "Armored",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 3,
+        "col": 3,
+        "row": 0
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 3,
+        "col": 3,
+        "row": 0
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "kind": "swarm",
+      "name": "Swarm",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 4,
+        "col": 4,
+        "row": 0
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 4,
+        "col": 4,
+        "row": 0
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "kind": "regenerator",
+      "name": "Regenerator",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 5,
+        "col": 0,
+        "row": 1
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 5,
+        "col": 0,
+        "row": 1
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "kind": "shielded",
+      "name": "Shielded",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 6,
+        "col": 1,
+        "row": 1
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 6,
+        "col": 1,
+        "row": 1
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "kind": "stealth",
+      "name": "Stealth",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 7,
+        "col": 2,
+        "row": 1
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 7,
+        "col": 2,
+        "row": 1
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "kind": "splitter",
+      "name": "Splitter",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 8,
+        "col": 3,
+        "row": 1
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 8,
+        "col": 3,
+        "row": 1
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "kind": "boss",
+      "name": "Boss",
+      "gameplaySprite": {
+        "file": "assets/enemies/enemy_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 9,
+        "col": 4,
+        "row": 1
+      },
+      "inspectionIcon": {
+        "file": "assets/enemies/enemy_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 9,
+        "col": 4,
+        "row": 1
+      },
+      "statusOverlayFile": "assets/enemies/enemy_status_atlas.png",
+      "verifiedInLiveRenderer": true
+    }
+  ]
+}

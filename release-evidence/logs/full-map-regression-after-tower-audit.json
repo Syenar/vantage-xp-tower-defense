@@ -1,0 +1,85 @@
+{
+  "maps": [
+    {
+      "map": "Meadow Circuit",
+      "victory": true,
+      "wave": 31,
+      "lives": 9999,
+      "ticks": 12581,
+      "towers": 13
+    },
+    {
+      "map": "Switchback",
+      "victory": true,
+      "wave": 31,
+      "lives": 9999,
+      "ticks": 12634,
+      "towers": 13
+    },
+    {
+      "map": "Crucible Bend",
+      "victory": true,
+      "wave": 31,
+      "lives": 9999,
+      "ticks": 12728,
+      "towers": 14
+    },
+    {
+      "map": "Twin Fork",
+      "victory": true,
+      "wave": 31,
+      "lives": 9999,
+      "ticks": 12394,
+      "towers": 13
+    },
+    {
+      "map": "Velocity Divide",
+      "victory": true,
+      "wave": 31,
+      "lives": 9963,
+      "ticks": 11874,
+      "towers": 14
+    },
+    {
+      "map": "Build Islands",
+      "victory": true,
+      "wave": 31,
+      "lives": 9999,
+      "ticks": 11665,
+      "towers": 13
+    },
+    {
+      "map": "Crossing Fire",
+      "victory": true,
+      "wave": 31,
+      "lives": 9865,
+      "ticks": 12602,
+      "towers": 13
+    },
+    {
+      "map": "Convergence",
+      "victory": true,
+      "wave": 31,
+      "lives": 9999,
+      "ticks": 13741,
+      "towers": 13
+    },
+    {
+      "map": "Elite Bastion",
+      "victory": true,
+      "wave": 31,
+      "lives": 9999,
+      "ticks": 11801,
+      "towers": 14
+    },
+    {
+      "map": "Nexus Siege",
+      "victory": true,
+      "wave": 31,
+      "lives": 9999,
+      "ticks": 12056,
+      "towers": 16
+    }
+  ],
+  "errors": []
+}

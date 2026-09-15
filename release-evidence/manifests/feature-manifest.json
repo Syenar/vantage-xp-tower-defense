@@ -1,0 +1,152 @@
+[
+  {
+    "id": "webgpu-renderer",
+    "description": "WebGPU world renderer",
+    "implementation": "src/render/WebGpuRenderer.ts",
+    "result": "EXTERNAL RELEASE GATE \u2014 NOT VERIFIED"
+  },
+  {
+    "id": "deterministic-simulation",
+    "description": "60 Hz deterministic fixed-step simulation",
+    "implementation": "src/game/Simulation.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "tower-roster",
+    "description": "10 unique data-driven towers",
+    "implementation": "src/data/towerTypes.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "xp-progression",
+    "description": "Automatic experience levels 1-15, no manual upgrades",
+    "implementation": "src/game/Simulation.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "milestones",
+    "description": "Five milestones per tower at 3/5/8/11/15",
+    "implementation": "src/data/towerTypes.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "enemy-roster",
+    "description": "10 enemy archetypes including boss",
+    "implementation": "src/data/enemies.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "maps",
+    "description": "10 authored maps",
+    "implementation": "src/data/maps.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "waves",
+    "description": "31-wave generated campaigns",
+    "implementation": "src/data/waves.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "targeting",
+    "description": "Five deterministic priorities",
+    "implementation": "src/game/Simulation.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "status-effects",
+    "description": "Burn, slow, freeze, vulnerability, regen suppression",
+    "implementation": "src/game/Simulation.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "stealth",
+    "description": "Detection and Beacon reveal",
+    "implementation": "src/game/Simulation.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "support",
+    "description": "Bounded nonrecursive Beacon support",
+    "implementation": "src/game/Simulation.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "economy",
+    "description": "Purchase/sell/rewards/stipends",
+    "implementation": "src/game/Simulation.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "save-resume",
+    "description": "Versioned progress and wave-boundary checkpoints",
+    "implementation": "src/storage/SaveStore.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "difficulty",
+    "description": "Easy/Normal/Hard tuning",
+    "implementation": "src/game/Simulation.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "ui",
+    "description": "Responsive HTML/CSS HUD and menus",
+    "implementation": "src/ui/GameUI.ts",
+    "result": "EXTERNAL RELEASE GATE \u2014 NOT VERIFIED"
+  },
+  {
+    "id": "audio",
+    "description": "Optional WebAudio feedback cues",
+    "implementation": "src/audio/AudioManager.ts",
+    "result": "PASS"
+  },
+  {
+    "id": "input",
+    "description": "Pointer/mouse/touch-oriented controls",
+    "implementation": "src/game/Game.ts",
+    "result": "EXTERNAL RELEASE GATE \u2014 NOT VERIFIED"
+  },
+  {
+    "id": "cordovasync",
+    "description": "Cordova packaging sync",
+    "implementation": "tools/sync-cordova.mjs",
+    "result": "PASS"
+  },
+  {
+    "id": "android",
+    "description": "Cordova Android native build",
+    "implementation": "config.xml",
+    "result": "EXTERNAL RELEASE GATE \u2014 NOT VERIFIED"
+  },
+  {
+    "id": "ios",
+    "description": "Cordova iOS native build",
+    "implementation": "config.xml",
+    "result": "EXTERNAL RELEASE GATE \u2014 NOT VERIFIED"
+  },
+  {
+    "id": "tower-unique-milestones",
+    "description": "Ranger Adaptive Rounds/Combat Mastery, Hive Faster Recall, Railgun Hypervelocity behavior",
+    "implementation": "index.html / play.html",
+    "result": "PASS"
+  },
+  {
+    "id": "camera",
+    "description": "Bounded 1x-3x pan/zoom camera with mouse, keyboard and touch controls",
+    "implementation": "index.html / play.html",
+    "result": "PASS"
+  },
+  {
+    "id": "map-geometry-sync",
+    "description": "Runtime paths/pads synchronized with manifests, image dimensions and exact map transform",
+    "implementation": "index.html / play.html",
+    "result": "PASS"
+  },
+  {
+    "id": "stealth-guidance",
+    "description": "Player-facing stealth counter guidance plus detection/reveal mechanics",
+    "implementation": "index.html / play.html",
+    "result": "PASS"
+  }
+]

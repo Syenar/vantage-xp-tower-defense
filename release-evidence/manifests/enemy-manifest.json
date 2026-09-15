@@ -1,0 +1,167 @@
+[
+  {
+    "kind": "grunt",
+    "name": "Grunt",
+    "health": 100,
+    "speed": 52,
+    "reward": 0.8,
+    "xpBudget": 7,
+    "leakDamage": 1,
+    "radius": 10,
+    "resist": {
+      "kinetic": 0,
+      "explosive": 0,
+      "energy": 0,
+      "elemental": 0
+    }
+  },
+  {
+    "kind": "runner",
+    "name": "Runner",
+    "health": 62,
+    "speed": 92,
+    "reward": 0.8,
+    "xpBudget": 7,
+    "leakDamage": 1,
+    "radius": 8,
+    "resist": {
+      "kinetic": 0,
+      "explosive": 0,
+      "energy": 0.05,
+      "elemental": 0
+    }
+  },
+  {
+    "kind": "brute",
+    "name": "Brute",
+    "health": 310,
+    "speed": 35,
+    "reward": 1.8,
+    "xpBudget": 15,
+    "leakDamage": 2,
+    "radius": 14,
+    "resist": {
+      "kinetic": 0.08,
+      "explosive": 0.08,
+      "energy": 0,
+      "elemental": 0
+    }
+  },
+  {
+    "kind": "armored",
+    "name": "Armored",
+    "health": 220,
+    "speed": 43,
+    "reward": 1.8,
+    "xpBudget": 15,
+    "leakDamage": 2,
+    "radius": 12,
+    "resist": {
+      "kinetic": 0.42,
+      "explosive": 0.32,
+      "energy": 0.05,
+      "elemental": 0.08
+    }
+  },
+  {
+    "kind": "swarm",
+    "name": "Swarm",
+    "health": 42,
+    "speed": 61,
+    "reward": 0.4,
+    "xpBudget": 4,
+    "leakDamage": 1,
+    "radius": 7,
+    "resist": {
+      "kinetic": 0,
+      "explosive": 0,
+      "energy": 0,
+      "elemental": 0
+    }
+  },
+  {
+    "kind": "regenerator",
+    "name": "Regenerator",
+    "health": 180,
+    "speed": 48,
+    "reward": 1.5,
+    "xpBudget": 13,
+    "leakDamage": 2,
+    "radius": 11,
+    "resist": {
+      "kinetic": 0.05,
+      "explosive": 0.05,
+      "energy": 0.08,
+      "elemental": 0.18
+    },
+    "regenPerSecond": 8
+  },
+  {
+    "kind": "shielded",
+    "name": "Shielded",
+    "health": 155,
+    "shield": 100,
+    "shieldRegenPerSecond": 7,
+    "speed": 46,
+    "reward": 1.6,
+    "xpBudget": 14,
+    "leakDamage": 2,
+    "radius": 12,
+    "resist": {
+      "kinetic": 0.12,
+      "explosive": 0.18,
+      "energy": -0.08,
+      "elemental": 0.15
+    }
+  },
+  {
+    "kind": "stealth",
+    "name": "Stealth",
+    "health": 118,
+    "speed": 68,
+    "reward": 1.3,
+    "xpBudget": 12,
+    "leakDamage": 2,
+    "radius": 9,
+    "resist": {
+      "kinetic": 0.05,
+      "explosive": 0.05,
+      "energy": 0.08,
+      "elemental": 0.05
+    },
+    "stealth": true
+  },
+  {
+    "kind": "splitter",
+    "name": "Splitter",
+    "health": 190,
+    "speed": 50,
+    "reward": 1.5,
+    "xpBudget": 14,
+    "leakDamage": 2,
+    "radius": 12,
+    "resist": {
+      "kinetic": 0.08,
+      "explosive": 0.08,
+      "energy": 0.08,
+      "elemental": 0.08
+    }
+  },
+  {
+    "kind": "boss",
+    "name": "Boss",
+    "health": 6500,
+    "speed": 28,
+    "reward": 40,
+    "xpBudget": 220,
+    "leakDamage": 10,
+    "radius": 22,
+    "resist": {
+      "kinetic": 0.22,
+      "explosive": 0.18,
+      "energy": 0.2,
+      "elemental": 0.2
+    },
+    "elite": true
+  }
+]

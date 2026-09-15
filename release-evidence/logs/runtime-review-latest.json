@@ -1,0 +1,203 @@
+{
+  "checks": [
+    {
+      "name": "startup page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "10 towers",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "10 maps",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "31 waves per map",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all towers attack/contribute",
+      "pass": true,
+      "detail": "[{'id': 'ranger', 'shots': 11, 'damage': 322.0799999999999, 'xp': 5.636399999999998}, {'id': 'repeater', 'shots': 32, 'damage': 351.36000000000007, 'xp': 6.148799999999997}, {'id': 'cannon', 'shots': 5, 'damage': 378.2, 'xp': 6.618499999999999}, {'id': 'railgun', 'shots': 3, 'damage': 400, 'xp': 7}, {'id': 'frost', 'shots': 11, 'damage': 187.87999999999994, 'xp': 3.7078999999999986}, {'id': 'ember', 'shots': 9, 'damage': 293.64586666666656, 'xp': 5.1388026666666775}, {'id': 'arc', 'shots': 8, 'damage': 263.52, 'xp': 4.611599999999999}, {'id': 'marksman', 'shots': 2, 'damage': 400, 'xp': 7}, {'id': 'hive', 'shots': 15, 'damage': 329.4, 'xp': 5.764499999999999}, {'id': 'beacon', 'shots': 6, 'damage': 58.559999999999995, 'xp': 1.0248}]"
+    },
+    {
+      "name": "checkpoint round trip",
+      "pass": true,
+      "detail": "{'ok': True, 'map': 2, 'd': 'hard', 'n': 1, 'type': 'railgun', 'xp': 123, 'level': 4}"
+    },
+    {
+      "name": "sell cleanup",
+      "pass": true,
+      "detail": "{'t': 0, 'p': 0, 'b': 0, 'sl': 0}"
+    },
+    {
+      "name": "all maps complete without deadlock",
+      "pass": true,
+      "detail": "[{'map': 'Meadow Circuit', 'wave': 31, 'victory': True, 'lives': 9999, 'running': False, 'enemies': 0, 'ticks': 37392}, {'map': 'Switchback', 'wave': 31, 'victory': True, 'lives': 9999, 'running': False, 'enemies': 0, 'ticks': 37372}, {'map': 'Crucible Bend', 'wave': 31, 'victory': True, 'lives': 9999, 'running': False, 'enemies': 0, 'ticks': 38083}, {'map': 'Twin Fork', 'wave': 31, 'victory': True, 'lives': 9999, 'running': False, 'enemies': 0, 'ticks': 37195}, {'map': 'Velocity Divide', 'wave': 31, 'victory': True, 'lives': 9983, 'running': False, 'enemies': 0, 'ticks': 35494}, {'map': 'Build Islands', 'wave': 31, 'victory': True, 'lives': 9999, 'running': False, 'enemies': 0, 'ticks': 34932}, {'map': 'Crossing Fire', 'wave': 31, 'victory': True, 'lives': 9891, 'running': False, 'enemies': 0, 'ticks': 37885}, {'map': 'Convergence', 'wave': 31, 'victory': True, 'lives': 9999, 'running': False, 'enemies': 0, 'ticks': 39266}, {'map': 'Elite Bastion', 'wave': 31, 'victory': True, 'lives': 9999, 'running': False, 'enemies': 0, 'ticks': 35438}, {'map': 'Nexus Siege', 'wave': 31, 'victory': True, 'lives': 9999, 'running': False, 'enemies': 0, 'ticks': 36318}]"
+    },
+    {
+      "name": "final page errors",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "combat": [
+    {
+      "id": "ranger",
+      "shots": 11,
+      "damage": 322.0799999999999,
+      "xp": 5.636399999999998
+    },
+    {
+      "id": "repeater",
+      "shots": 32,
+      "damage": 351.36000000000007,
+      "xp": 6.148799999999997
+    },
+    {
+      "id": "cannon",
+      "shots": 5,
+      "damage": 378.2,
+      "xp": 6.618499999999999
+    },
+    {
+      "id": "railgun",
+      "shots": 3,
+      "damage": 400,
+      "xp": 7
+    },
+    {
+      "id": "frost",
+      "shots": 11,
+      "damage": 187.87999999999994,
+      "xp": 3.7078999999999986
+    },
+    {
+      "id": "ember",
+      "shots": 9,
+      "damage": 293.64586666666656,
+      "xp": 5.1388026666666775
+    },
+    {
+      "id": "arc",
+      "shots": 8,
+      "damage": 263.52,
+      "xp": 4.611599999999999
+    },
+    {
+      "id": "marksman",
+      "shots": 2,
+      "damage": 400,
+      "xp": 7
+    },
+    {
+      "id": "hive",
+      "shots": 15,
+      "damage": 329.4,
+      "xp": 5.764499999999999
+    },
+    {
+      "id": "beacon",
+      "shots": 6,
+      "damage": 58.559999999999995,
+      "xp": 1.0248
+    }
+  ],
+  "maps": [
+    {
+      "map": "Meadow Circuit",
+      "wave": 31,
+      "victory": true,
+      "lives": 9999,
+      "running": false,
+      "enemies": 0,
+      "ticks": 37392
+    },
+    {
+      "map": "Switchback",
+      "wave": 31,
+      "victory": true,
+      "lives": 9999,
+      "running": false,
+      "enemies": 0,
+      "ticks": 37372
+    },
+    {
+      "map": "Crucible Bend",
+      "wave": 31,
+      "victory": true,
+      "lives": 9999,
+      "running": false,
+      "enemies": 0,
+      "ticks": 38083
+    },
+    {
+      "map": "Twin Fork",
+      "wave": 31,
+      "victory": true,
+      "lives": 9999,
+      "running": false,
+      "enemies": 0,
+      "ticks": 37195
+    },
+    {
+      "map": "Velocity Divide",
+      "wave": 31,
+      "victory": true,
+      "lives": 9983,
+      "running": false,
+      "enemies": 0,
+      "ticks": 35494
+    },
+    {
+      "map": "Build Islands",
+      "wave": 31,
+      "victory": true,
+      "lives": 9999,
+      "running": false,
+      "enemies": 0,
+      "ticks": 34932
+    },
+    {
+      "map": "Crossing Fire",
+      "wave": 31,
+      "victory": true,
+      "lives": 9891,
+      "running": false,
+      "enemies": 0,
+      "ticks": 37885
+    },
+    {
+      "map": "Convergence",
+      "wave": 31,
+      "victory": true,
+      "lives": 9999,
+      "running": false,
+      "enemies": 0,
+      "ticks": 39266
+    },
+    {
+      "map": "Elite Bastion",
+      "wave": 31,
+      "victory": true,
+      "lives": 9999,
+      "running": false,
+      "enemies": 0,
+      "ticks": 35438
+    },
+    {
+      "map": "Nexus Siege",
+      "wave": 31,
+      "victory": true,
+      "lives": 9999,
+      "running": false,
+      "enemies": 0,
+      "ticks": 36318
+    }
+  ]
+}

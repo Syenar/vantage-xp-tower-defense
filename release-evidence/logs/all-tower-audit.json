@@ -1,0 +1,1556 @@
+[
+  {
+    "name": "Roster has 10 unique towers",
+    "pass": true,
+    "detail": [
+      "ranger",
+      "repeater",
+      "cannon",
+      "railgun",
+      "frost",
+      "ember",
+      "arc",
+      "marksman",
+      "hive",
+      "beacon"
+    ]
+  },
+  {
+    "name": "Ranger has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ranger has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ranger XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ranger stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Repeater has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Repeater has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Repeater XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Repeater stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Cannon has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Cannon has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Cannon XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Cannon stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Frost has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Frost has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Frost XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Frost stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ember has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ember has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ember XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ember stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Arc has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Arc has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Arc XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Arc stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Marksman has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Marksman has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Marksman XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Marksman stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Hive has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Hive has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Hive XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Hive stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Beacon has 15 levels",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Beacon has milestones 3/5/8/11/15",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Beacon XP thresholds strictly increase",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Beacon stats finite/positive",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ranger attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 5
+    }
+  },
+  {
+    "name": "Ranger earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.10248
+    }
+  },
+  {
+    "name": "Repeater attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 14
+    }
+  },
+  {
+    "name": "Repeater earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.09991799999999999
+    }
+  },
+  {
+    "name": "Cannon attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 3
+    }
+  },
+  {
+    "name": "Cannon earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.105896
+    }
+  },
+  {
+    "name": "Railgun attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 2
+    }
+  },
+  {
+    "name": "Railgun earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.24766000000000002
+    }
+  },
+  {
+    "name": "Frost attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 5
+    }
+  },
+  {
+    "name": "Frost earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.31393599999999994
+    }
+  },
+  {
+    "name": "Ember attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 4
+    }
+  },
+  {
+    "name": "Ember earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.08918037333333338
+    }
+  },
+  {
+    "name": "Arc attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 4
+    }
+  },
+  {
+    "name": "Arc earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.092232
+    }
+  },
+  {
+    "name": "Marksman attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 2
+    }
+  },
+  {
+    "name": "Marksman earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.286944
+    }
+  },
+  {
+    "name": "Hive attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 7
+    }
+  },
+  {
+    "name": "Hive earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.092232
+    }
+  },
+  {
+    "name": "Beacon attacks at level 1",
+    "pass": true,
+    "detail": {
+      "shots": 3
+    }
+  },
+  {
+    "name": "Beacon earns XP",
+    "pass": true,
+    "detail": {
+      "xp": 0.020496
+    }
+  },
+  {
+    "name": "Ranger does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 0.8695652173913044
+    }
+  },
+  {
+    "name": "Repeater does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 0.29411764705882354
+    }
+  },
+  {
+    "name": "Cannon does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 1.923076923076923
+    }
+  },
+  {
+    "name": "Railgun does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 2.7777777777777777
+    }
+  },
+  {
+    "name": "Frost does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 0.9523809523809523
+    }
+  },
+  {
+    "name": "Ember does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 1.1111111111111112
+    }
+  },
+  {
+    "name": "Arc does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 1.25
+    }
+  },
+  {
+    "name": "Marksman does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 3.3333333333333335
+    }
+  },
+  {
+    "name": "Hive does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 0
+    }
+  },
+  {
+    "name": "Beacon does not bank idle attacks",
+    "pass": true,
+    "detail": {
+      "delta": 1,
+      "cool": 1.8181818181818181
+    }
+  },
+  {
+    "name": "Ranger L3 Sharpened Rounds",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ranger L5 Rapid Cycling",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ranger L8 Double Tap",
+    "pass": true,
+    "detail": 2
+  },
+  {
+    "name": "Ranger L11 Adaptive Rounds grants full stealth detection",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ranger L11 Adaptive Rounds increases armor penetration against armored targets",
+    "pass": true,
+    "detail": {
+      "base": 0.24,
+      "adaptive": 0.45999999999999996
+    }
+  },
+  {
+    "name": "Ranger L11 Adaptive Rounds increases damage against fast targets",
+    "pass": true,
+    "detail": {
+      "normal": {
+        "damage": 105,
+        "armorPen": 0.24,
+        "mode": "balanced",
+        "mastery": false
+      },
+      "fast": {
+        "damage": 118,
+        "armorPen": 0.24,
+        "mode": "fast",
+        "mastery": false
+      }
+    }
+  },
+  {
+    "name": "Ranger L15 Combat Mastery enhances every fifth primary attack",
+    "pass": true,
+    "detail": {
+      "projectile": {
+        "id": 1,
+        "tower": {
+          "id": 1,
+          "type": "ranger",
+          "x": 845.17,
+          "y": 246.18,
+          "padIndex": 0,
+          "xp": 3650,
+          "level": 15,
+          "cool": 0,
+          "kills": 0,
+          "targeting": "first",
+          "shots": 5,
+          "totalDamage": 0,
+          "spin": 0,
+          "lastShotTime": 0,
+          "aim": 0,
+          "levelFlashUntil": 0,
+          "drones": null,
+          "swarmCool": 0,
+          "swarmArmed": false,
+          "builtWave": 0,
+          "catchupTargetXp": 0,
+          "catchupUntilWave": 0
+        },
+        "target": 1,
+        "x": 845.17,
+        "y": 246.18,
+        "speed": 490.55999999999995,
+        "damage": 98.86348080000002,
+        "type": "kinetic",
+        "armorPen": 0.36,
+        "splash": 0,
+        "slow": 0,
+        "duration": 0,
+        "burn": 0,
+        "pierce": 1,
+        "hardControl": false,
+        "reacquire": false,
+        "crit": true,
+        "rangerMode": "mastery",
+        "rangerMastery": true
+      }
+    }
+  },
+  {
+    "name": "Ranger L15 Combat Mastery has distinct VFX",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ranger detects stealth inside reduced range",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ranger cannot detect stealth outside reduced range without Beacon",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Tower inspection shows all unlocked milestones",
+    "pass": true,
+    "detail": "\u2713L3 Sharpened Rounds \u00b7 Armor penetration\u2713L5 Rapid Cycling \u00b7 Faster fire\u2713L8 Double Tap \u00b7 Every fourth attack fires twice\u2713L11 Adaptive Rounds \u00b7 Full stealth detection and target-specific ammunition\u2713L15 Combat Mastery \u00b7 Every fifth attack fires an enhanced adaptive round"
+  },
+  {
+    "name": "Repeater L3 Spin Up does not precharge",
+    "pass": true,
+    "detail": 0
+  },
+  {
+    "name": "Repeater L3 Spin Up activates under sustained fire",
+    "pass": true,
+    "detail": 0.6883333333333338
+  },
+  {
+    "name": "Repeater L5 Twin Feed",
+    "pass": true,
+    "detail": 2
+  },
+  {
+    "name": "Repeater L8 Suppression requires repeat",
+    "pass": true,
+    "detail": {
+      "first": 0,
+      "after": 1
+    }
+  },
+  {
+    "name": "Repeater L11 Triple Feed",
+    "pass": true,
+    "detail": 3
+  },
+  {
+    "name": "Repeater L15 Overdrive raises authored rate",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Cannon L3 Larger Charge",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Cannon L5 Shrapnel reaches beyond primary splash",
+    "pass": true,
+    "detail": {
+      "lost": 28.27120640000794
+    }
+  },
+  {
+    "name": "Cannon L8 Concussion applies area slow",
+    "pass": true,
+    "detail": [
+      {
+        "towerId": 1,
+        "amount": 0.2,
+        "until": 1,
+        "hard": false
+      }
+    ]
+  },
+  {
+    "name": "Cannon L11 High Explosive keeps center stronger",
+    "pass": true,
+    "detail": {
+      "center": 253.4847679999948,
+      "splash": 152.52049600001192
+    }
+  },
+  {
+    "name": "Cannon L15 Chain Detonation damages nearby on kill",
+    "pass": true,
+    "detail": {
+      "lost": 139.14274508800008
+    }
+  },
+  {
+    "name": "Cannon attack has authored blast VFX",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun L3 Tungsten Core",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun L5 Deep Pierce",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun L8 Capacitor Bank",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun L11 Overpenetration improves collateral falloff",
+    "pass": true,
+    "detail": {
+      "d10": 380.27839200000744,
+      "d11": 488.3289119999972
+    }
+  },
+  {
+    "name": "Railgun beam VFX created",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun L15 Hypervelocity damage",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun L15 Hypervelocity pierce",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Railgun L15 Hypervelocity kills do not consume pierce capacity",
+    "pass": true,
+    "detail": {
+      "kills": 8,
+      "pierce": 7
+    }
+  },
+  {
+    "name": "Frost L3 Deep Chill",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Frost L5 Cold Snap freezes primary",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Frost L5 Cold Snap freezes splash",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Frost Cold Snap VFX",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Frost L8 Brittle marks primary and splash",
+    "pass": true,
+    "detail": {
+      "p": 1,
+      "n": 1
+    }
+  },
+  {
+    "name": "Frost L11 Permafrost",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Frost L15 Flash Freeze",
+    "pass": true,
+    "detail": [
+      {
+        "towerId": 1,
+        "amount": 0.98,
+        "until": 2.6300000000000003,
+        "hard": true
+      },
+      {
+        "towerId": 1,
+        "amount": 0.33999999999999997,
+        "until": 2.6300000000000003,
+        "hard": false
+      }
+    ]
+  },
+  {
+    "name": "Ember L3 Hotter Burn",
+    "pass": true,
+    "detail": {
+      "b2": 8.135936000000001,
+      "b3": 11.426227200000001
+    }
+  },
+  {
+    "name": "Ember L5 Lingering Flame",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Ember L8 Fire Spread ignites neighbor on death",
+    "pass": true,
+    "detail": [
+      {
+        "tower": {
+          "id": 1,
+          "type": "ember",
+          "x": 845.17,
+          "y": 246.18,
+          "padIndex": 0,
+          "xp": 757.000070277598,
+          "level": 8,
+          "cool": 997.0000000000018,
+          "kills": 2,
+          "targeting": "first",
+          "shots": 0,
+          "totalDamage": 3,
+          "spin": 0,
+          "lastShotTime": 0,
+          "aim": 1.5707963267948966,
+          "levelFlashUntil": 0,
+          "drones": null,
+          "swarmCool": 0,
+          "swarmArmed": false,
+          "builtWave": 0,
+          "catchupTargetXp": 0,
+          "catchupUntilWave": 0
+        },
+        "dps": 6.13790784,
+        "left": 2.333333333333334,
+        "suppressRegen": false,
+        "spreadGeneration": 1
+      }
+    ]
+  },
+  {
+    "name": "Ember L8 spread burn does not recursively fan forever",
+    "pass": true,
+    "detail": []
+  },
+  {
+    "name": "Ember L11 Scorch suppresses regeneration",
+    "pass": true,
+    "detail": {
+      "before": 99965.633618944,
+      "after": 99927.167237888
+    }
+  },
+  {
+    "name": "Ember L15 Inferno applies area burn",
+    "pass": true,
+    "detail": [
+      {
+        "tower": {
+          "id": 1,
+          "type": "ember",
+          "x": 845.17,
+          "y": 246.18,
+          "padIndex": 0,
+          "xp": 3650,
+          "level": 15,
+          "cool": 0,
+          "kills": 0,
+          "targeting": "first",
+          "shots": 6,
+          "totalDamage": 0,
+          "spin": 0,
+          "lastShotTime": 0,
+          "aim": 0,
+          "levelFlashUntil": 0,
+          "drones": null,
+          "swarmCool": 0,
+          "swarmArmed": false,
+          "builtWave": 0,
+          "catchupTargetXp": 0,
+          "catchupUntilWave": 0
+        },
+        "dps": 13.123211673600006,
+        "left": 3.5,
+        "suppressRegen": true,
+        "spreadGeneration": 0
+      }
+    ]
+  },
+  {
+    "name": "Ember L15 Inferno VFX",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Arc L3 Conductive Arc adds chain",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Arc L5 Voltage damage jump",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Arc L8 Fork creates two first-hop branches",
+    "pass": true,
+    "detail": [
+      {
+        "x1": 845.17,
+        "y1": 246.18,
+        "x2": 905.17,
+        "y2": 246.18
+      },
+      {
+        "x1": 905.17,
+        "y1": 246.18,
+        "x2": 950.17,
+        "y2": 266.18,
+        "fork": true
+      },
+      {
+        "x1": 905.17,
+        "y1": 246.18,
+        "x2": 950.17,
+        "y2": 226.18,
+        "fork": true
+      }
+    ]
+  },
+  {
+    "name": "Arc L11 Conduction improves chain falloff",
+    "pass": true,
+    "detail": {
+      "r10": 0.7199999999999447,
+      "r11": 0.8200000000000887
+    }
+  },
+  {
+    "name": "Arc L15 Storm Circuit creates pulse segments",
+    "pass": true,
+    "detail": 15
+  },
+  {
+    "name": "Arc authored lightning code path is wired",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Marksman L3 Weak Point bonus",
+    "pass": true,
+    "detail": {
+      "base": 366.59145600000005,
+      "weak": 410.5824307200001
+    }
+  },
+  {
+    "name": "Marksman L5 Patient Shot requires real wait and rewards it",
+    "pass": true,
+    "detail": {
+      "d0": 394.9989120000001,
+      "dw": 458.2745170877699
+    }
+  },
+  {
+    "name": "Marksman L8 Finisher",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Marksman L11 Elite Hunter",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Marksman L15 Perfect Shot guarantees periodic critical",
+    "pass": true,
+    "detail": {
+      "id": 1,
+      "tower": {
+        "id": 1,
+        "type": "marksman",
+        "x": 845.17,
+        "y": 246.18,
+        "padIndex": 0,
+        "xp": 3650,
+        "level": 15,
+        "cool": 0,
+        "kills": 0,
+        "targeting": "first",
+        "shots": 4,
+        "totalDamage": 0,
+        "spin": 0,
+        "lastShotTime": 0,
+        "aim": 0,
+        "levelFlashUntil": 0,
+        "drones": null,
+        "swarmCool": 0,
+        "swarmArmed": false,
+        "builtWave": 0,
+        "catchupTargetXp": 0,
+        "catchupUntilWave": 0
+      },
+      "target": 1,
+      "x": 845.17,
+      "y": 246.18,
+      "speed": 1051.2,
+      "damage": 661.1989595904001,
+      "type": "kinetic",
+      "armorPen": 0.15,
+      "splash": 0,
+      "slow": 0,
+      "duration": 0,
+      "burn": 0,
+      "pierce": 1,
+      "hardControl": false,
+      "reacquire": false,
+      "crit": true,
+      "rangerMode": "standard",
+      "rangerMastery": false
+    }
+  },
+  {
+    "name": "Marksman has full stealth detection",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Hive L1 drone count",
+    "pass": true,
+    "detail": {
+      "n": 1
+    }
+  },
+  {
+    "name": "Hive L3 drone count",
+    "pass": true,
+    "detail": {
+      "n": 2
+    }
+  },
+  {
+    "name": "Hive L11 drone count",
+    "pass": true,
+    "detail": {
+      "n": 3
+    }
+  },
+  {
+    "name": "Hive L5 Faster Recall immediately reacquires after target loss",
+    "pass": true,
+    "detail": {
+      "targetId": 2,
+      "expected": 2,
+      "drone": {
+        "slot": 0,
+        "cool": 0.13333333333333336,
+        "targetId": 2,
+        "recallFlash": 0.3166666666666667
+      }
+    }
+  },
+  {
+    "name": "Hive L5 Faster Recall refunds most of remaining cooldown",
+    "pass": true,
+    "detail": {
+      "refunded": 0.3333333333333333
+    }
+  },
+  {
+    "name": "Hive L5 Faster Recall fires earlier after reacquisition",
+    "pass": true,
+    "detail": {
+      "before": 1,
+      "after": 2,
+      "drone": {
+        "slot": 0,
+        "cool": 0.13333333333333336,
+        "targetId": 2,
+        "recallFlash": 0.3166666666666667
+      }
+    }
+  },
+  {
+    "name": "Hive L8 Hunter Logic distributes autonomous drone damage",
+    "pass": true,
+    "detail": {
+      "d1": 85.24872000001778,
+      "d2": 85.24872000001778
+    }
+  },
+  {
+    "name": "Hive combined drone cadence matches authored total rate",
+    "pass": true,
+    "detail": {
+      "shots": 47,
+      "expected": 46.49702400000002
+    }
+  },
+  {
+    "name": "Hive does not store drone volleys while idle",
+    "pass": true,
+    "detail": {
+      "first": 1,
+      "early": 1,
+      "drones": [
+        {
+          "slot": 0,
+          "cool": 0.5452025832879105,
+          "targetId": 1,
+          "recallFlash": 0
+        },
+        {
+          "slot": 1,
+          "cool": 0.10333333333333336,
+          "targetId": 0,
+          "recallFlash": 0
+        },
+        {
+          "slot": 2,
+          "cool": 0.32333333333333336,
+          "targetId": 0,
+          "recallFlash": 0
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hive L15 Swarm Protocol produces burst effect",
+    "pass": true,
+    "detail": {
+      "shots": 24,
+      "swarmCool": 3.51666666666667
+    }
+  },
+  {
+    "name": "Beacon L3 Calibration expands aura",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Beacon L5 Target Link adds range",
+    "pass": true,
+    "detail": {
+      "damage": 1,
+      "rate": 1.03,
+      "range": 1.06,
+      "projectile": 1,
+      "xpShare": 0.05,
+      "reacquire": false,
+      "sources": [
+        {
+          "tower": {
+            "id": 2,
+            "type": "beacon",
+            "x": 890.17,
+            "y": 246.18,
+            "padIndex": 1,
+            "xp": 0,
+            "level": 5,
+            "cool": 0,
+            "kills": 0,
+            "targeting": "first",
+            "shots": 0,
+            "totalDamage": 0,
+            "spin": 0,
+            "lastShotTime": 0,
+            "aim": 0,
+            "levelFlashUntil": 0,
+            "drones": null,
+            "swarmCool": 0,
+            "swarmArmed": false,
+            "builtWave": 0,
+            "catchupTargetXp": 0,
+            "catchupUntilWave": 0
+          },
+          "weight": 1,
+          "profile": {
+            "damage": 1,
+            "rate": 1.03,
+            "range": 1.06,
+            "projectile": 1,
+            "xpShare": 0.05,
+            "reacquire": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Beacon L8 Combat Network adds damage",
+    "pass": true,
+    "detail": {
+      "damage": 1.1,
+      "rate": 1.03,
+      "range": 1.06,
+      "projectile": 1,
+      "xpShare": 0.05,
+      "reacquire": false,
+      "sources": [
+        {
+          "tower": {
+            "id": 2,
+            "type": "beacon",
+            "x": 890.17,
+            "y": 246.18,
+            "padIndex": 1,
+            "xp": 0,
+            "level": 8,
+            "cool": 0,
+            "kills": 0,
+            "targeting": "first",
+            "shots": 0,
+            "totalDamage": 0,
+            "spin": 0,
+            "lastShotTime": 0,
+            "aim": 0,
+            "levelFlashUntil": 0,
+            "drones": null,
+            "swarmCool": 0,
+            "swarmArmed": false,
+            "builtWave": 0,
+            "catchupTargetXp": 0,
+            "catchupUntilWave": 0
+          },
+          "weight": 1,
+          "profile": {
+            "damage": 1.1,
+            "rate": 1.03,
+            "range": 1.06,
+            "projectile": 1,
+            "xpShare": 0.05,
+            "reacquire": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Beacon L11 Veteran Relay adds projectile speed and reacquire",
+    "pass": true,
+    "detail": {
+      "damage": 1.1,
+      "rate": 1.03,
+      "range": 1.06,
+      "projectile": 1.12,
+      "xpShare": 0.08,
+      "reacquire": true,
+      "sources": [
+        {
+          "tower": {
+            "id": 2,
+            "type": "beacon",
+            "x": 890.17,
+            "y": 246.18,
+            "padIndex": 1,
+            "xp": 0,
+            "level": 11,
+            "cool": 0,
+            "kills": 0,
+            "targeting": "first",
+            "shots": 0,
+            "totalDamage": 0,
+            "spin": 0,
+            "lastShotTime": 0,
+            "aim": 0,
+            "levelFlashUntil": 0,
+            "drones": null,
+            "swarmCool": 0,
+            "swarmArmed": false,
+            "builtWave": 0,
+            "catchupTargetXp": 0,
+            "catchupUntilWave": 0
+          },
+          "weight": 1,
+          "profile": {
+            "damage": 1.1,
+            "rate": 1.03,
+            "range": 1.06,
+            "projectile": 1.12,
+            "xpShare": 0.08,
+            "reacquire": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Beacon L15 Command Field remains bounded",
+    "pass": true,
+    "detail": {
+      "damage": 1.216,
+      "rate": 1.108,
+      "range": 1.1350000000000002,
+      "projectile": 1.216,
+      "xpShare": 0.16,
+      "reacquire": true,
+      "sources": [
+        {
+          "tower": {
+            "id": 2,
+            "type": "beacon",
+            "x": 885.17,
+            "y": 246.18,
+            "padIndex": 1,
+            "xp": 0,
+            "level": 15,
+            "cool": 0,
+            "kills": 0,
+            "targeting": "first",
+            "shots": 0,
+            "totalDamage": 0,
+            "spin": 0,
+            "lastShotTime": 0,
+            "aim": 0,
+            "levelFlashUntil": 0,
+            "drones": null,
+            "swarmCool": 0,
+            "swarmArmed": false,
+            "builtWave": 0,
+            "catchupTargetXp": 0,
+            "catchupUntilWave": 0
+          },
+          "weight": 1,
+          "profile": {
+            "damage": 1.16,
+            "rate": 1.08,
+            "range": 1.1,
+            "projectile": 1.16,
+            "xpShare": 0.12,
+            "reacquire": true
+          }
+        },
+        {
+          "tower": {
+            "id": 3,
+            "type": "beacon",
+            "x": 900.17,
+            "y": 246.18,
+            "padIndex": 2,
+            "xp": 0,
+            "level": 15,
+            "cool": 0,
+            "kills": 0,
+            "targeting": "first",
+            "shots": 0,
+            "totalDamage": 0,
+            "spin": 0,
+            "lastShotTime": 0,
+            "aim": 0,
+            "levelFlashUntil": 0,
+            "drones": null,
+            "swarmCool": 0,
+            "swarmArmed": false,
+            "builtWave": 0,
+            "catchupTargetXp": 0,
+            "catchupUntilWave": 0
+          },
+          "weight": 0.35,
+          "profile": {
+            "damage": 1.16,
+            "rate": 1.08,
+            "range": 1.1,
+            "projectile": 1.16,
+            "xpShare": 0.12,
+            "reacquire": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Overlapping Beacon stacking has diminishing returns",
+    "pass": true,
+    "detail": {
+      "damage": 1.216,
+      "rate": 1.108,
+      "range": 1.1350000000000002,
+      "projectile": 1.216,
+      "xpShare": 0.16,
+      "reacquire": true,
+      "sources": [
+        {
+          "tower": {
+            "id": 2,
+            "type": "beacon",
+            "x": 885.17,
+            "y": 246.18,
+            "padIndex": 1,
+            "xp": 0,
+            "level": 15,
+            "cool": 0,
+            "kills": 0,
+            "targeting": "first",
+            "shots": 0,
+            "totalDamage": 0,
+            "spin": 0,
+            "lastShotTime": 0,
+            "aim": 0,
+            "levelFlashUntil": 0,
+            "drones": null,
+            "swarmCool": 0,
+            "swarmArmed": false,
+            "builtWave": 0,
+            "catchupTargetXp": 0,
+            "catchupUntilWave": 0
+          },
+          "weight": 1,
+          "profile": {
+            "damage": 1.16,
+            "rate": 1.08,
+            "range": 1.1,
+            "projectile": 1.16,
+            "xpShare": 0.12,
+            "reacquire": true
+          }
+        },
+        {
+          "tower": {
+            "id": 3,
+            "type": "beacon",
+            "x": 900.17,
+            "y": 246.18,
+            "padIndex": 2,
+            "xp": 0,
+            "level": 15,
+            "cool": 0,
+            "kills": 0,
+            "targeting": "first",
+            "shots": 0,
+            "totalDamage": 0,
+            "spin": 0,
+            "lastShotTime": 0,
+            "aim": 0,
+            "levelFlashUntil": 0,
+            "drones": null,
+            "swarmCool": 0,
+            "swarmArmed": false,
+            "builtWave": 0,
+            "catchupTargetXp": 0,
+            "catchupUntilWave": 0
+          },
+          "weight": 0.35,
+          "profile": {
+            "damage": 1.16,
+            "rate": 1.08,
+            "range": 1.1,
+            "projectile": 1.16,
+            "xpShare": 0.12,
+            "reacquire": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Beacon does not buff Beacon recursively",
+    "pass": true,
+    "detail": {
+      "damage": 1,
+      "rate": 1,
+      "range": 1,
+      "projectile": 1,
+      "xpShare": 0,
+      "reacquire": false,
+      "sources": []
+    }
+  },
+  {
+    "name": "Beacon aura reveals stealth to other towers",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Beacon receives bounded contribution XP while ally retains majority",
+    "pass": true,
+    "detail": {
+      "tower": 0.665,
+      "beacon": 0.03499999999996817
+    }
+  },
+  {
+    "name": "Max-level attacker cannot power-level Beacon",
+    "pass": true,
+    "detail": {
+      "before": 0,
+      "after": 0
+    }
+  },
+  {
+    "name": "Max-level Beacon does not siphon ally XP",
+    "pass": true,
+    "detail": {
+      "delta": 0.7000000000000001
+    }
+  },
+  {
+    "name": "Useful control earns finite contribution XP",
+    "pass": true,
+    "detail": {
+      "towerGain": 0.104720000000043,
+      "enemyPaid": 0.10472,
+      "budget": 7
+    }
+  },
+  {
+    "name": "Repeated control remains within enemy XP budget",
+    "pass": true,
+    "detail": {
+      "paid": 0.42,
+      "budget": 7
+    }
+  },
+  {
+    "name": "Pre-wave tower is not catch-up eligible",
+    "pass": true,
+    "detail": {
+      "m": 1,
+      "target": 0
+    }
+  },
+  {
+    "name": "Late-built underleveled tower gets bounded catch-up",
+    "pass": true,
+    "detail": {
+      "m": 1.4,
+      "target": 260,
+      "until": 25
+    }
+  },
+  {
+    "name": "Catch-up expires at expected floor",
+    "pass": true,
+    "detail": 1
+  },
+  {
+    "name": "Catch-up expires after five waves",
+    "pass": true,
+    "detail": 1
+  },
+  {
+    "name": "Damage + control never exceeds finite enemy XP budget",
+    "pass": true,
+    "detail": {
+      "paid": 7,
+      "budget": 7
+    }
+  },
+  {
+    "name": "Catch-up metadata survives checkpoint",
+    "pass": true,
+    "detail": {
+      "before": {
+        "built": 20,
+        "target": 260,
+        "until": 25
+      },
+      "after": {
+        "built": 20,
+        "target": 260,
+        "until": 25
+      }
+    }
+  },
+  {
+    "name": "ranger sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "repeater sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "cannon sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "railgun sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "frost sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "ember sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "arc sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "marksman sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "hive sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "beacon sell removes owned projectiles/effects/statuses",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "name": "Browser JavaScript errors",
+    "pass": true,
+    "detail": ""
+  }
+]

@@ -1,0 +1,635 @@
+{
+  "version": 1,
+  "description": "Authoritative live-art mapping for every tower archetype. Atlas indices are zero-based.",
+  "shared": {
+    "gameplaySpriteSheet": "assets/towers/tower_sprite_sheet.png",
+    "iconAtlas": "assets/towers/tower_icon_atlas.png",
+    "portraitCardAtlas": "assets/towers/tower_portrait_card_atlas.png",
+    "milestoneAtlas": "assets/towers/tower_milestone_atlas.png",
+    "projectileAtlas": "assets/projectiles/projectile_atlas.png",
+    "selectionOverlayAtlas": "assets/overlays/placement_targeting_marker_atlas.png",
+    "vfxAtlas": "assets/vfx/vfx_atlas.png"
+  },
+  "towers": [
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "role": "Generalist",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 0,
+        "col": 0,
+        "row": 0
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 0,
+        "col": 0,
+        "row": 0
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 0,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 0,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          18.0,
+          38.0,
+          175.0,
+          74.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "id": "repeater",
+      "name": "Repeater",
+      "role": "Rapid fire",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 1,
+        "col": 1,
+        "row": 0
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 1,
+        "col": 1,
+        "row": 0
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 1,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 1,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          633.0,
+          40.0,
+          180.0,
+          65.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "id": "cannon",
+      "name": "Cannon",
+      "role": "Splash damage",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 2,
+        "col": 2,
+        "row": 0
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 2,
+        "col": 2,
+        "row": 0
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 2,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 2,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          22.0,
+          160.0,
+          380.0,
+          115.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "id": "railgun",
+      "name": "Railgun",
+      "role": "Armor piercer",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 3,
+        "col": 3,
+        "row": 0
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 3,
+        "col": 3,
+        "row": 0
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 3,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 3,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          760.0,
+          160.0,
+          430.0,
+          110.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "id": "frost",
+      "name": "Frost",
+      "role": "Crowd control",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 4,
+        "col": 4,
+        "row": 0
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 4,
+        "col": 4,
+        "row": 0
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 4,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 4,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          145.0,
+          292.0,
+          310.0,
+          135.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "id": "ember",
+      "name": "Ember",
+      "role": "Damage over time",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 5,
+        "col": 0,
+        "row": 1
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 5,
+        "col": 0,
+        "row": 1
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 5,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 5,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          675.0,
+          305.0,
+          320.0,
+          140.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "id": "arc",
+      "name": "Arc",
+      "role": "Chain lightning",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 6,
+        "col": 1,
+        "row": 1
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 6,
+        "col": 1,
+        "row": 1
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 6,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 6,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          125.0,
+          468.0,
+          510.0,
+          145.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "id": "marksman",
+      "name": "Marksman",
+      "role": "Execution specialist",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 7,
+        "col": 2,
+        "row": 1
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 7,
+        "col": 2,
+        "row": 1
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 7,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 7,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          25.0,
+          635.0,
+          430.0,
+          100.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "id": "hive",
+      "name": "Hive",
+      "role": "Autonomous drones",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 8,
+        "col": 3,
+        "row": 1
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 8,
+        "col": 3,
+        "row": 1
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 8,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 8,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          20.0,
+          770.0,
+          440.0,
+          105.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    },
+    {
+      "id": "beacon",
+      "name": "Beacon",
+      "role": "Support",
+      "gameplaySprite": {
+        "file": "assets/towers/tower_sprite_sheet.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 9,
+        "col": 4,
+        "row": 1
+      },
+      "trayIcon": {
+        "file": "assets/towers/tower_icon_atlas.png",
+        "grid": [
+          5,
+          2
+        ],
+        "index": 9,
+        "col": 4,
+        "row": 1
+      },
+      "inspectionCard": {
+        "file": "assets/towers/tower_portrait_card_atlas.png",
+        "grid": [
+          10,
+          4
+        ],
+        "column": 9,
+        "portraitRow": 0,
+        "cardRow": 1,
+        "roleRow": 2
+      },
+      "milestones": {
+        "file": "assets/towers/tower_milestone_atlas.png",
+        "towerColumn": 9,
+        "levels": [
+          3,
+          5,
+          8,
+          11,
+          15
+        ],
+        "persistentOverlayRow": 6,
+        "levelUpBurstRow": 2
+      },
+      "projectile": {
+        "file": "assets/projectiles/projectile_atlas.png",
+        "sourceRect": [
+          380.0,
+          905.0,
+          300.0,
+          165.0
+        ]
+      },
+      "selectionRange": {
+        "file": "assets/overlays/placement_targeting_marker_atlas.png"
+      },
+      "verifiedInLiveRenderer": true
+    }
+  ]
+}

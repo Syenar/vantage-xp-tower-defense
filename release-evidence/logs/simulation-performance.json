@@ -1,0 +1,13 @@
+{
+  "environment": "container simulation-only; no GPU renderer",
+  "ticks": 3600,
+  "initialEnemies": 500,
+  "towers": 16,
+  "elapsedMs": 680.55,
+  "avgMsPerTick": 0.18904,
+  "simTicksPerSecond": 5289.8,
+  "remainingEnemies": 388,
+  "projectiles": 1,
+  "budgetMsPerTick": 4,
+  "pass": true
+}

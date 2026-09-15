@@ -1,0 +1,30 @@
+VANTAGE XP TOWER DEFENSE — FULL ROSTER FINAL REVIEW
+Date: 2026-09-14
+
+Final clean-pass source hash:
+4e66a400516d7dd0097fbb4144549ac4790674943071121a66df21065ed625b8
+
+Three consecutive no-change clean passes:
+PASS 1
+PASS 2
+PASS 3
+
+Each pass included:
+- TypeScript static check
+- Build/static validation
+- 10-map geometry validation
+- tower/enemy asset validation
+- 160-check all-tower mechanical audit
+- browser runtime gauntlet
+- all 10 maps through wave 31 deadlock-isolation run
+- checkpoint save/restore
+- sell cleanup
+- standalone self-contained rebuild
+- visual/layout interaction smoke test
+- static web build
+- Cordova web synchronization
+- index/play parity check
+- source hash stability check
+
+Known environment limitation:
+Hardware-backed WebGPU device execution and native Android/iOS compilation are external release gates. Browser logic/render-layout verification uses Chromium's fallback path in this environment.

@@ -1,0 +1,3212 @@
+[
+  {
+    "id": "ranger",
+    "name": "Ranger",
+    "role": "Generalist",
+    "cost": 100,
+    "damageType": "kinetic",
+    "detectionFactor": 0.75,
+    "base": {
+      "damage": 24,
+      "fireRate": 1.15,
+      "range": 175,
+      "projectileSpeed": 420,
+      "armorPen": 0.08,
+      "splashRadius": 0,
+      "chains": 0,
+      "pierce": 1,
+      "slow": 0,
+      "statusDuration": 0,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Sharpened Rounds",
+        "description": "Armor penetration"
+      },
+      {
+        "level": 5,
+        "name": "Rapid Cycling",
+        "description": "Faster fire"
+      },
+      {
+        "level": 8,
+        "name": "Double Tap",
+        "description": "Every fourth attack fires twice"
+      },
+      {
+        "level": 11,
+        "name": "Adaptive Rounds",
+        "description": "Full stealth detection and target-specific ammunition"
+      },
+      {
+        "level": 15,
+        "name": "Combat Mastery",
+        "description": "Every fifth attack fires an enhanced adaptive round"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 29.28,
+          "fireRate": 1.15,
+          "range": 175,
+          "projectileSpeed": 420,
+          "armorPen": 0.08,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 30.509760000000004,
+          "fireRate": 1.1822,
+          "range": 177.1,
+          "projectileSpeed": 425.04,
+          "armorPen": 0.08,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 31.739520000000002,
+          "fireRate": 1.2144,
+          "range": 179.20000000000002,
+          "projectileSpeed": 430.08,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 32.96928,
+          "fireRate": 1.2466,
+          "range": 181.3,
+          "projectileSpeed": 435.12,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 34.19904,
+          "fireRate": 1.4834079999999998,
+          "range": 183.4,
+          "projectileSpeed": 440.16,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 35.4288,
+          "fireRate": 1.52076,
+          "range": 185.5,
+          "projectileSpeed": 445.20000000000005,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 36.65856,
+          "fireRate": 1.5581119999999995,
+          "range": 187.60000000000002,
+          "projectileSpeed": 450.24,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 37.88832,
+          "fireRate": 1.5954639999999995,
+          "range": 189.70000000000002,
+          "projectileSpeed": 455.28000000000003,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 39.118080000000006,
+          "fireRate": 1.6328159999999998,
+          "range": 191.8,
+          "projectileSpeed": 460.32000000000005,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 40.347840000000005,
+          "fireRate": 1.6701679999999999,
+          "range": 193.9,
+          "projectileSpeed": 465.36,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 41.5776,
+          "fireRate": 1.70752,
+          "range": 196.00000000000003,
+          "projectileSpeed": 470.40000000000003,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 42.80736,
+          "fireRate": 1.7448719999999998,
+          "range": 198.10000000000002,
+          "projectileSpeed": 475.44000000000005,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 44.03712,
+          "fireRate": 1.7822239999999998,
+          "range": 200.20000000000002,
+          "projectileSpeed": 480.4800000000001,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 45.26688,
+          "fireRate": 1.8195759999999996,
+          "range": 202.29999999999998,
+          "projectileSpeed": 485.52,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 46.496640000000006,
+          "fireRate": 1.8569279999999997,
+          "range": 204.39999999999998,
+          "projectileSpeed": 490.55999999999995,
+          "armorPen": 0.24,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "repeater",
+    "name": "Repeater",
+    "role": "Rapid fire",
+    "cost": 125,
+    "damageType": "kinetic",
+    "detectionFactor": 0,
+    "base": {
+      "damage": 9,
+      "fireRate": 3.4,
+      "range": 150,
+      "projectileSpeed": 470,
+      "armorPen": 0.02,
+      "splashRadius": 0,
+      "chains": 0,
+      "pierce": 1,
+      "slow": 0,
+      "statusDuration": 0,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Spin Up",
+        "description": "Sustained fire accelerates"
+      },
+      {
+        "level": 5,
+        "name": "Twin Feed",
+        "description": "Occasional second shot"
+      },
+      {
+        "level": 8,
+        "name": "Suppression",
+        "description": "Repeated hits slow"
+      },
+      {
+        "level": 11,
+        "name": "Triple Feed",
+        "description": "Improved multishot"
+      },
+      {
+        "level": 15,
+        "name": "Overdrive",
+        "description": "Higher fire-rate cap"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 10.98,
+          "fireRate": 3.4,
+          "range": 150,
+          "projectileSpeed": 470,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 11.44116,
+          "fireRate": 3.4952,
+          "range": 151.8,
+          "projectileSpeed": 475.64,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 11.902320000000001,
+          "fireRate": 3.5904000000000003,
+          "range": 153.6,
+          "projectileSpeed": 481.28000000000003,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 12.36348,
+          "fireRate": 3.6856,
+          "range": 155.4,
+          "projectileSpeed": 486.92,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 13.465872000000001,
+          "fireRate": 3.7808,
+          "range": 157.20000000000002,
+          "projectileSpeed": 492.56,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 13.950090000000001,
+          "fireRate": 3.8760000000000003,
+          "range": 159,
+          "projectileSpeed": 498.20000000000005,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 14.434308000000001,
+          "fireRate": 3.9711999999999996,
+          "range": 160.8,
+          "projectileSpeed": 503.84000000000003,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 14.918526000000002,
+          "fireRate": 4.0664,
+          "range": 162.60000000000002,
+          "projectileSpeed": 509.48,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.08,
+          "statusDuration": 0.65,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 15.402744000000002,
+          "fireRate": 4.1616,
+          "range": 164.4,
+          "projectileSpeed": 515.12,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.08,
+          "statusDuration": 0.65,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 15.886962000000002,
+          "fireRate": 4.2568,
+          "range": 166.20000000000002,
+          "projectileSpeed": 520.76,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.08,
+          "statusDuration": 0.65,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 18.008298,
+          "fireRate": 4.352,
+          "range": 168.00000000000003,
+          "projectileSpeed": 526.4000000000001,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.08,
+          "statusDuration": 0.65,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 18.540937800000002,
+          "fireRate": 4.4472000000000005,
+          "range": 169.8,
+          "projectileSpeed": 532.0400000000001,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.08,
+          "statusDuration": 0.65,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 19.073577600000004,
+          "fireRate": 4.5424,
+          "range": 171.60000000000002,
+          "projectileSpeed": 537.6800000000001,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.08,
+          "statusDuration": 0.65,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 19.606217400000002,
+          "fireRate": 4.637599999999999,
+          "range": 173.39999999999998,
+          "projectileSpeed": 543.3199999999999,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.08,
+          "statusDuration": 0.65,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 20.138857200000004,
+          "fireRate": 5.774015999999999,
+          "range": 175.2,
+          "projectileSpeed": 548.9599999999999,
+          "armorPen": 0.02,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.08,
+          "statusDuration": 0.65,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "cannon",
+    "name": "Cannon",
+    "role": "Splash damage",
+    "cost": 170,
+    "damageType": "explosive",
+    "detectionFactor": 0,
+    "base": {
+      "damage": 62,
+      "fireRate": 0.52,
+      "range": 165,
+      "projectileSpeed": 290,
+      "armorPen": 0.02,
+      "splashRadius": 42,
+      "chains": 0,
+      "pierce": 1,
+      "slow": 0,
+      "statusDuration": 0,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Larger Charge",
+        "description": "Blast radius"
+      },
+      {
+        "level": 5,
+        "name": "Shrapnel",
+        "description": "Secondary fragments"
+      },
+      {
+        "level": 8,
+        "name": "Concussion",
+        "description": "Area slow"
+      },
+      {
+        "level": 11,
+        "name": "High Explosive",
+        "description": "Center damage"
+      },
+      {
+        "level": 15,
+        "name": "Chain Detonation",
+        "description": "Kills can secondary-blast"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 75.64,
+          "fireRate": 0.52,
+          "range": 165,
+          "projectileSpeed": 290,
+          "armorPen": 0.02,
+          "splashRadius": 42,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 78.81688,
+          "fireRate": 0.53456,
+          "range": 166.98,
+          "projectileSpeed": 293.48,
+          "armorPen": 0.02,
+          "splashRadius": 42,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 81.99376000000001,
+          "fireRate": 0.54912,
+          "range": 168.96,
+          "projectileSpeed": 296.96,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 85.17063999999999,
+          "fireRate": 0.5636800000000001,
+          "range": 170.94,
+          "projectileSpeed": 300.44,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 88.34751999999999,
+          "fireRate": 0.5782400000000001,
+          "range": 172.92000000000002,
+          "projectileSpeed": 303.92,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 91.5244,
+          "fireRate": 0.5928000000000001,
+          "range": 174.9,
+          "projectileSpeed": 307.40000000000003,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 94.70128,
+          "fireRate": 0.60736,
+          "range": 176.88000000000002,
+          "projectileSpeed": 310.88,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 97.87816000000001,
+          "fireRate": 0.62192,
+          "range": 178.86,
+          "projectileSpeed": 314.36,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.2,
+          "statusDuration": 0.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 101.05504,
+          "fireRate": 0.63648,
+          "range": 180.84,
+          "projectileSpeed": 317.84000000000003,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.2,
+          "statusDuration": 0.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 104.23192,
+          "fireRate": 0.6510400000000001,
+          "range": 182.82000000000002,
+          "projectileSpeed": 321.32000000000005,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.2,
+          "statusDuration": 0.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 126.74238399999999,
+          "fireRate": 0.6656000000000001,
+          "range": 184.8,
+          "projectileSpeed": 324.8,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.2,
+          "statusDuration": 0.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 130.4911024,
+          "fireRate": 0.6801600000000001,
+          "range": 186.78000000000003,
+          "projectileSpeed": 328.28000000000003,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.2,
+          "statusDuration": 0.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 134.2398208,
+          "fireRate": 0.6947200000000001,
+          "range": 188.76000000000002,
+          "projectileSpeed": 331.76000000000005,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.2,
+          "statusDuration": 0.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 137.9885392,
+          "fireRate": 0.7092799999999999,
+          "range": 190.73999999999998,
+          "projectileSpeed": 335.23999999999995,
+          "armorPen": 0.02,
+          "splashRadius": 54,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.2,
+          "statusDuration": 0.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 141.7372576,
+          "fireRate": 0.7238399999999999,
+          "range": 192.72,
+          "projectileSpeed": 338.71999999999997,
+          "armorPen": 0.02,
+          "splashRadius": 62,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.2,
+          "statusDuration": 0.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "railgun",
+    "name": "Railgun",
+    "role": "Armor piercer",
+    "cost": 220,
+    "damageType": "kinetic",
+    "detectionFactor": 0,
+    "base": {
+      "damage": 145,
+      "fireRate": 0.36,
+      "range": 275,
+      "projectileSpeed": 850,
+      "armorPen": 0.58,
+      "splashRadius": 0,
+      "chains": 0,
+      "pierce": 3,
+      "slow": 0,
+      "statusDuration": 0,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Tungsten Core",
+        "description": "More armor penetration"
+      },
+      {
+        "level": 5,
+        "name": "Deep Pierce",
+        "description": "More pierce"
+      },
+      {
+        "level": 8,
+        "name": "Capacitor Bank",
+        "description": "Faster charge"
+      },
+      {
+        "level": 11,
+        "name": "Overpenetration",
+        "description": "Less pierce falloff"
+      },
+      {
+        "level": 15,
+        "name": "Hypervelocity",
+        "description": "Kills along the beam do not consume pierce capacity"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 176.9,
+          "fireRate": 0.36,
+          "range": 275,
+          "projectileSpeed": 850,
+          "armorPen": 0.58,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 3,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 184.3298,
+          "fireRate": 0.37008,
+          "range": 278.3,
+          "projectileSpeed": 860.2,
+          "armorPen": 0.58,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 3,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 191.7596,
+          "fireRate": 0.38016,
+          "range": 281.6,
+          "projectileSpeed": 870.4,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 3,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 199.18939999999998,
+          "fireRate": 0.39024000000000003,
+          "range": 284.90000000000003,
+          "projectileSpeed": 880.6,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 3,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 206.6192,
+          "fireRate": 0.40032,
+          "range": 288.2,
+          "projectileSpeed": 890.8000000000001,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 214.049,
+          "fireRate": 0.41040000000000004,
+          "range": 291.5,
+          "projectileSpeed": 901,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 221.4788,
+          "fireRate": 0.42047999999999996,
+          "range": 294.8,
+          "projectileSpeed": 911.2,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 228.9086,
+          "fireRate": 0.5166719999999999,
+          "range": 298.1,
+          "projectileSpeed": 921.4000000000001,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 236.3384,
+          "fireRate": 0.5287679999999999,
+          "range": 301.40000000000003,
+          "projectileSpeed": 931.6,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 243.76820000000004,
+          "fireRate": 0.540864,
+          "range": 304.70000000000005,
+          "projectileSpeed": 941.8000000000001,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 271.29384000000005,
+          "fireRate": 0.55296,
+          "range": 308.00000000000006,
+          "projectileSpeed": 952.0000000000001,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 279.318024,
+          "fireRate": 0.565056,
+          "range": 311.3,
+          "projectileSpeed": 962.2,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 287.3422080000001,
+          "fireRate": 0.577152,
+          "range": 314.6,
+          "projectileSpeed": 972.4000000000001,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 295.3663920000001,
+          "fireRate": 0.5892479999999999,
+          "range": 317.9,
+          "projectileSpeed": 982.5999999999999,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 5,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 379.23822000000007,
+          "fireRate": 0.6013439999999999,
+          "range": 321.2,
+          "projectileSpeed": 992.8,
+          "armorPen": 0.75,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 7,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "frost",
+    "name": "Frost",
+    "role": "Crowd control",
+    "cost": 145,
+    "damageType": "elemental",
+    "detectionFactor": 0,
+    "base": {
+      "damage": 14,
+      "fireRate": 1.05,
+      "range": 155,
+      "projectileSpeed": 360,
+      "armorPen": 0,
+      "splashRadius": 12,
+      "chains": 0,
+      "pierce": 1,
+      "slow": 0.24,
+      "statusDuration": 1.8,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Deep Chill",
+        "description": "Stronger slow"
+      },
+      {
+        "level": 5,
+        "name": "Cold Snap",
+        "description": "Periodic freeze burst"
+      },
+      {
+        "level": 8,
+        "name": "Brittle",
+        "description": "Chilled vulnerability"
+      },
+      {
+        "level": 11,
+        "name": "Permafrost",
+        "description": "Longer slow"
+      },
+      {
+        "level": 15,
+        "name": "Flash Freeze",
+        "description": "Periodic immobilize"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 17.08,
+          "fireRate": 1.05,
+          "range": 155,
+          "projectileSpeed": 360,
+          "armorPen": 0,
+          "splashRadius": 12,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.24,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 17.797359999999998,
+          "fireRate": 1.0794000000000001,
+          "range": 156.86,
+          "projectileSpeed": 364.32,
+          "armorPen": 0,
+          "splashRadius": 12,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.24,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 18.51472,
+          "fireRate": 1.1088,
+          "range": 158.72,
+          "projectileSpeed": 368.64,
+          "armorPen": 0,
+          "splashRadius": 12,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 19.232079999999996,
+          "fireRate": 1.1382,
+          "range": 160.58,
+          "projectileSpeed": 372.96000000000004,
+          "armorPen": 0,
+          "splashRadius": 12,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 19.949439999999996,
+          "fireRate": 1.1676000000000002,
+          "range": 162.44,
+          "projectileSpeed": 377.28000000000003,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 20.6668,
+          "fireRate": 1.1970000000000003,
+          "range": 164.3,
+          "projectileSpeed": 381.6,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 21.384159999999998,
+          "fireRate": 1.2264,
+          "range": 166.16,
+          "projectileSpeed": 385.92,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 23.869641599999998,
+          "fireRate": 1.2558,
+          "range": 168.02,
+          "projectileSpeed": 390.24,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 24.644390400000002,
+          "fireRate": 1.2852000000000001,
+          "range": 169.88000000000002,
+          "projectileSpeed": 394.56000000000006,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 25.4191392,
+          "fireRate": 1.3146,
+          "range": 171.74,
+          "projectileSpeed": 398.88000000000005,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 1.8,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 26.193887999999998,
+          "fireRate": 1.344,
+          "range": 173.60000000000002,
+          "projectileSpeed": 403.20000000000005,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 2.43,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 26.9686368,
+          "fireRate": 1.3734000000000002,
+          "range": 175.46,
+          "projectileSpeed": 407.52000000000004,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 2.43,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 27.7433856,
+          "fireRate": 1.4028,
+          "range": 177.32000000000002,
+          "projectileSpeed": 411.84000000000003,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 2.43,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 28.518134399999997,
+          "fireRate": 1.4322,
+          "range": 179.17999999999998,
+          "projectileSpeed": 416.15999999999997,
+          "armorPen": 0,
+          "splashRadius": 30,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 2.43,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 29.292883200000002,
+          "fireRate": 1.4616,
+          "range": 181.04,
+          "projectileSpeed": 420.47999999999996,
+          "armorPen": 0,
+          "splashRadius": 40,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0.33999999999999997,
+          "statusDuration": 2.43,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "ember",
+    "name": "Ember",
+    "role": "Damage over time",
+    "cost": 150,
+    "damageType": "elemental",
+    "detectionFactor": 0,
+    "base": {
+      "damage": 20,
+      "fireRate": 0.9,
+      "range": 155,
+      "projectileSpeed": 350,
+      "armorPen": 0,
+      "splashRadius": 0,
+      "chains": 0,
+      "pierce": 1,
+      "slow": 0,
+      "statusDuration": 3,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Hotter Burn",
+        "description": "Stronger burn"
+      },
+      {
+        "level": 5,
+        "name": "Lingering Flame",
+        "description": "Longer burn"
+      },
+      {
+        "level": 8,
+        "name": "Fire Spread",
+        "description": "Ignite nearby on death"
+      },
+      {
+        "level": 11,
+        "name": "Scorch",
+        "description": "Suppress regeneration"
+      },
+      {
+        "level": 15,
+        "name": "Inferno",
+        "description": "Periodic area ignite"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 24.4,
+          "fireRate": 0.9,
+          "range": 155,
+          "projectileSpeed": 350,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 3,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 25.4248,
+          "fireRate": 0.9252,
+          "range": 156.86,
+          "projectileSpeed": 354.2,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 3,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 28.565568000000003,
+          "fireRate": 0.9504,
+          "range": 158.72,
+          "projectileSpeed": 358.40000000000003,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 3,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 29.672351999999997,
+          "fireRate": 0.9756000000000001,
+          "range": 160.58,
+          "projectileSpeed": 362.6,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 3,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 30.779136,
+          "fireRate": 1.0008000000000001,
+          "range": 162.44,
+          "projectileSpeed": 366.8,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 31.88592,
+          "fireRate": 1.0260000000000002,
+          "range": 164.3,
+          "projectileSpeed": 371,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 32.992704,
+          "fireRate": 1.0512,
+          "range": 166.16,
+          "projectileSpeed": 375.20000000000005,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 34.099488,
+          "fireRate": 1.0764,
+          "range": 168.02,
+          "projectileSpeed": 379.40000000000003,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 35.206272,
+          "fireRate": 1.1016,
+          "range": 169.88000000000002,
+          "projectileSpeed": 383.6,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 36.31305600000001,
+          "fireRate": 1.1268,
+          "range": 171.74,
+          "projectileSpeed": 387.8,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 41.910220800000005,
+          "fireRate": 1.1520000000000001,
+          "range": 173.60000000000002,
+          "projectileSpeed": 392.00000000000006,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 43.149818880000005,
+          "fireRate": 1.1772,
+          "range": 175.46,
+          "projectileSpeed": 396.20000000000005,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 44.389416960000005,
+          "fireRate": 1.2024000000000001,
+          "range": 177.32000000000002,
+          "projectileSpeed": 400.40000000000003,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 45.629015040000006,
+          "fireRate": 1.2276,
+          "range": 179.17999999999998,
+          "projectileSpeed": 404.59999999999997,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 46.86861312000001,
+          "fireRate": 1.2528,
+          "range": 181.04,
+          "projectileSpeed": 408.79999999999995,
+          "armorPen": 0,
+          "splashRadius": 36,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 4.5,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "arc",
+    "name": "Arc",
+    "role": "Chain lightning",
+    "cost": 185,
+    "damageType": "energy",
+    "detectionFactor": 0,
+    "base": {
+      "damage": 27,
+      "fireRate": 0.8,
+      "range": 165,
+      "projectileSpeed": 0,
+      "armorPen": 0,
+      "splashRadius": 0,
+      "chains": 2,
+      "pierce": 1,
+      "slow": 0,
+      "statusDuration": 0,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Conductive Arc",
+        "description": "Extra chain"
+      },
+      {
+        "level": 5,
+        "name": "Voltage",
+        "description": "More damage"
+      },
+      {
+        "level": 8,
+        "name": "Fork",
+        "description": "First jump can branch"
+      },
+      {
+        "level": 11,
+        "name": "Conduction",
+        "description": "Less falloff"
+      },
+      {
+        "level": 15,
+        "name": "Storm Circuit",
+        "description": "Large periodic discharge"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 32.94,
+          "fireRate": 0.8,
+          "range": 165,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 2,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 34.323479999999996,
+          "fireRate": 0.8224,
+          "range": 166.98,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 2,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 35.70696,
+          "fireRate": 0.8448000000000001,
+          "range": 168.96,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 3,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 37.090439999999994,
+          "fireRate": 0.8672000000000001,
+          "range": 170.94,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 3,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 43.860268799999986,
+          "fireRate": 0.8896000000000002,
+          "range": 172.92000000000002,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 3,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 45.43743599999999,
+          "fireRate": 0.9120000000000001,
+          "range": 174.9,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 3,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 47.01460319999999,
+          "fireRate": 0.9344,
+          "range": 176.88000000000002,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 3,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 48.591770399999994,
+          "fireRate": 0.9568,
+          "range": 178.86,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 4,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 50.1689376,
+          "fireRate": 0.9792000000000001,
+          "range": 180.84,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 4,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 51.7461048,
+          "fireRate": 1.0016,
+          "range": 182.82000000000002,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 4,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 58.65559919999999,
+          "fireRate": 1.024,
+          "range": 184.8,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 4,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 60.39048312,
+          "fireRate": 1.0464,
+          "range": 186.78000000000003,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 4,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 62.12536703999999,
+          "fireRate": 1.0688000000000002,
+          "range": 188.76000000000002,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 4,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 63.860250959999995,
+          "fireRate": 1.0912,
+          "range": 190.73999999999998,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 4,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 65.59513488,
+          "fireRate": 1.1136,
+          "range": 192.72,
+          "projectileSpeed": 0,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 6,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "marksman",
+    "name": "Marksman",
+    "role": "Execution specialist",
+    "cost": 200,
+    "damageType": "kinetic",
+    "detectionFactor": 1,
+    "base": {
+      "damage": 168,
+      "fireRate": 0.3,
+      "range": 265,
+      "projectileSpeed": 900,
+      "armorPen": 0.15,
+      "splashRadius": 0,
+      "chains": 0,
+      "pierce": 1,
+      "slow": 0,
+      "statusDuration": 0,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Weak Point",
+        "description": "Bonus vs damaged"
+      },
+      {
+        "level": 5,
+        "name": "Patient Shot",
+        "description": "Bonus after waiting"
+      },
+      {
+        "level": 8,
+        "name": "Finisher",
+        "description": "Execute bonus"
+      },
+      {
+        "level": 11,
+        "name": "Elite Hunter",
+        "description": "Bonus vs elites"
+      },
+      {
+        "level": 15,
+        "name": "Perfect Shot",
+        "description": "Periodic guaranteed critical"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 204.96,
+          "fireRate": 0.3,
+          "range": 265,
+          "projectileSpeed": 900,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 213.56832000000003,
+          "fireRate": 0.3084,
+          "range": 268.18,
+          "projectileSpeed": 910.8,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 244.39430400000003,
+          "fireRate": 0.3168,
+          "range": 271.36,
+          "projectileSpeed": 921.6,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 253.863456,
+          "fireRate": 0.3252,
+          "range": 274.54,
+          "projectileSpeed": 932.4,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 263.33260800000005,
+          "fireRate": 0.3336,
+          "range": 277.72,
+          "projectileSpeed": 943.2,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 272.80176,
+          "fireRate": 0.342,
+          "range": 280.90000000000003,
+          "projectileSpeed": 954,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 282.270912,
+          "fireRate": 0.3504,
+          "range": 284.08000000000004,
+          "projectileSpeed": 964.8000000000001,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 315.0792691200001,
+          "fireRate": 0.35879999999999995,
+          "range": 287.26000000000005,
+          "projectileSpeed": 975.6,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 325.3059532800001,
+          "fireRate": 0.36719999999999997,
+          "range": 290.44,
+          "projectileSpeed": 986.4000000000001,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 335.5326374400001,
+          "fireRate": 0.3756,
+          "range": 293.62,
+          "projectileSpeed": 997.2,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 394.1656266240001,
+          "fireRate": 0.384,
+          "range": 296.8,
+          "projectileSpeed": 1008.0000000000001,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 405.82404656640006,
+          "fireRate": 0.3924,
+          "range": 299.98,
+          "projectileSpeed": 1018.8000000000001,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 417.4824665088,
+          "fireRate": 0.4008,
+          "range": 303.16,
+          "projectileSpeed": 1029.6000000000001,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 429.14088645120006,
+          "fireRate": 0.40919999999999995,
+          "range": 306.34,
+          "projectileSpeed": 1040.3999999999999,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 440.7993063936001,
+          "fireRate": 0.41759999999999997,
+          "range": 309.52,
+          "projectileSpeed": 1051.2,
+          "armorPen": 0.15,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.25,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "hive",
+    "name": "Hive",
+    "role": "Autonomous drones",
+    "cost": 210,
+    "damageType": "kinetic",
+    "detectionFactor": 0,
+    "base": {
+      "damage": 18,
+      "fireRate": 1.55,
+      "range": 205,
+      "projectileSpeed": 520,
+      "armorPen": 0.04,
+      "splashRadius": 0,
+      "chains": 0,
+      "pierce": 1,
+      "slow": 0,
+      "statusDuration": 0,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Second Drone",
+        "description": "Extra attack channel"
+      },
+      {
+        "level": 5,
+        "name": "Faster Recall",
+        "description": "Lost-target reacquisition refunds the drone cooldown"
+      },
+      {
+        "level": 8,
+        "name": "Hunter Logic",
+        "description": "Improved retarget"
+      },
+      {
+        "level": 11,
+        "name": "Third Drone",
+        "description": "Extra attack channel"
+      },
+      {
+        "level": 15,
+        "name": "Swarm Protocol",
+        "description": "Burst drone swarm"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 21.96,
+          "fireRate": 1.55,
+          "range": 205,
+          "projectileSpeed": 520,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 22.88232,
+          "fireRate": 1.5934000000000001,
+          "range": 207.46,
+          "projectileSpeed": 526.24,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 23.804640000000003,
+          "fireRate": 2.53704,
+          "range": 209.92000000000002,
+          "projectileSpeed": 532.48,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 24.72696,
+          "fireRate": 2.6043100000000003,
+          "range": 212.38,
+          "projectileSpeed": 538.72,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 25.64928,
+          "fireRate": 2.992169600000001,
+          "range": 214.84,
+          "projectileSpeed": 544.96,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 26.5716,
+          "fireRate": 3.067512000000001,
+          "range": 217.3,
+          "projectileSpeed": 551.2,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 27.493920000000003,
+          "fireRate": 3.1428544,
+          "range": 219.76000000000002,
+          "projectileSpeed": 557.44,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 28.416240000000002,
+          "fireRate": 3.2181968000000003,
+          "range": 222.22000000000003,
+          "projectileSpeed": 563.6800000000001,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 29.33856,
+          "fireRate": 3.2935392000000006,
+          "range": 224.68,
+          "projectileSpeed": 569.9200000000001,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 30.260880000000004,
+          "fireRate": 3.368881600000001,
+          "range": 227.14000000000001,
+          "projectileSpeed": 576.1600000000001,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 31.1832,
+          "fireRate": 4.649702400000002,
+          "range": 229.60000000000002,
+          "projectileSpeed": 582.4000000000001,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 32.10552,
+          "fireRate": 4.751414640000002,
+          "range": 232.06000000000003,
+          "projectileSpeed": 588.6400000000001,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 33.027840000000005,
+          "fireRate": 4.853126880000001,
+          "range": 234.52000000000004,
+          "projectileSpeed": 594.8800000000001,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 33.950160000000004,
+          "fireRate": 4.954839120000001,
+          "range": 236.98,
+          "projectileSpeed": 601.12,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 34.87248,
+          "fireRate": 6.320689200000001,
+          "range": 239.44,
+          "projectileSpeed": 607.36,
+          "armorPen": 0.04,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "beacon",
+    "name": "Beacon",
+    "role": "Support",
+    "cost": 190,
+    "damageType": "energy",
+    "detectionFactor": 1,
+    "base": {
+      "damage": 8,
+      "fireRate": 0.55,
+      "range": 145,
+      "projectileSpeed": 360,
+      "armorPen": 0,
+      "splashRadius": 0,
+      "chains": 0,
+      "pierce": 1,
+      "slow": 0,
+      "statusDuration": 0,
+      "critChance": 0.03,
+      "critMultiplier": 1.5
+    },
+    "milestones": [
+      {
+        "level": 3,
+        "name": "Calibration",
+        "description": "Larger aura"
+      },
+      {
+        "level": 5,
+        "name": "Target Link",
+        "description": "Range aura"
+      },
+      {
+        "level": 8,
+        "name": "Combat Network",
+        "description": "Damage aura"
+      },
+      {
+        "level": 11,
+        "name": "Veteran Relay",
+        "description": "Projectile/reacquire aura"
+      },
+      {
+        "level": 15,
+        "name": "Command Field",
+        "description": "Stronger bounded aura"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "xpThreshold": 0,
+        "stats": {
+          "damage": 9.76,
+          "fireRate": 0.55,
+          "range": 145,
+          "projectileSpeed": 360,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 2,
+        "xpThreshold": 40,
+        "stats": {
+          "damage": 10.16992,
+          "fireRate": 0.5654,
+          "range": 146.74,
+          "projectileSpeed": 364.32,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 3,
+        "xpThreshold": 90,
+        "stats": {
+          "damage": 10.57984,
+          "fireRate": 0.5808000000000001,
+          "range": 172.2368,
+          "projectileSpeed": 368.64,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 4,
+        "xpThreshold": 160,
+        "stats": {
+          "damage": 10.989759999999999,
+          "fireRate": 0.5962000000000001,
+          "range": 174.25519999999997,
+          "projectileSpeed": 372.96000000000004,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 5,
+        "xpThreshold": 260,
+        "stats": {
+          "damage": 11.399679999999998,
+          "fireRate": 0.6116000000000001,
+          "range": 176.2736,
+          "projectileSpeed": 377.28000000000003,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 6,
+        "xpThreshold": 390,
+        "stats": {
+          "damage": 11.8096,
+          "fireRate": 0.6270000000000001,
+          "range": 178.292,
+          "projectileSpeed": 381.6,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 7,
+        "xpThreshold": 550,
+        "stats": {
+          "damage": 12.21952,
+          "fireRate": 0.6424,
+          "range": 180.3104,
+          "projectileSpeed": 385.92,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 8,
+        "xpThreshold": 750,
+        "stats": {
+          "damage": 12.62944,
+          "fireRate": 0.6578,
+          "range": 182.3288,
+          "projectileSpeed": 390.24,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 9,
+        "xpThreshold": 990,
+        "stats": {
+          "damage": 13.03936,
+          "fireRate": 0.6732,
+          "range": 184.34720000000002,
+          "projectileSpeed": 394.56000000000006,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 10,
+        "xpThreshold": 1280,
+        "stats": {
+          "damage": 13.449280000000002,
+          "fireRate": 0.6886000000000001,
+          "range": 186.36560000000003,
+          "projectileSpeed": 398.88000000000005,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 11,
+        "xpThreshold": 1620,
+        "stats": {
+          "damage": 13.8592,
+          "fireRate": 0.7040000000000001,
+          "range": 188.384,
+          "projectileSpeed": 403.20000000000005,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 12,
+        "xpThreshold": 2020,
+        "stats": {
+          "damage": 14.26912,
+          "fireRate": 0.7194,
+          "range": 190.4024,
+          "projectileSpeed": 407.52000000000004,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 13,
+        "xpThreshold": 2490,
+        "stats": {
+          "damage": 14.67904,
+          "fireRate": 0.7348000000000001,
+          "range": 192.4208,
+          "projectileSpeed": 411.84000000000003,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 14,
+        "xpThreshold": 3030,
+        "stats": {
+          "damage": 15.08896,
+          "fireRate": 0.7502,
+          "range": 194.43919999999997,
+          "projectileSpeed": 416.15999999999997,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      },
+      {
+        "level": 15,
+        "xpThreshold": 3650,
+        "stats": {
+          "damage": 15.49888,
+          "fireRate": 0.7656000000000001,
+          "range": 212.17420799999996,
+          "projectileSpeed": 420.47999999999996,
+          "armorPen": 0,
+          "splashRadius": 0,
+          "chains": 0,
+          "pierce": 1,
+          "slow": 0,
+          "statusDuration": 0,
+          "critChance": 0.03,
+          "critMultiplier": 1.5
+        }
+      }
+    ]
+  }
+]

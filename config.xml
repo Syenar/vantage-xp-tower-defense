@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.xptowerdefense.game" version="0.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>XP Tower Defense</name>
+    <description>2D WebGPU tower defense with experience-driven tower progression.</description>
+    <author>XP Tower Defense Team</author>
+    <content src="index.html" />
+    <access origin="self" />
+
+    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="landscape" />
+    <preference name="DisallowOverscroll" value="true" />
+
+    <!-- WebGPU mobile support floor for the initial native package. -->
+    <preference name="android-minSdkVersion" value="31" />
+    <preference name="android-targetSdkVersion" value="36" />
+    <preference name="deployment-target" value="26.0" />
+
+    <engine name="android" spec="15.0.0" />
+    <engine name="ios" spec="8.1.1" />
+</widget>

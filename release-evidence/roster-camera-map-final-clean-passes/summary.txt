@@ -1,0 +1,30 @@
+VANTAGE — ROSTER / CAMERA / MAP FINAL CLEAN-PASS SUMMARY
+
+Counted clean passes: 3/3 PASS
+Source hash for all three passes:
+949cfb8db10a211e50e92e5a3a0ee3177046fe8b7de0edc614b714246263cec4
+
+Each pass verified:
+- TypeScript --noEmit: PASS
+- build structure: PASS
+- asset validation: PASS
+- live geometry / manifests / image dimensions / source parity: PASS
+- all-tower audit: 168/168 PASS
+- camera/input audit: 18/18 PASS
+- browser runtime: PASS
+- 10 maps × 31-wave deadlock QA: PASS
+- responsive visual interaction smoke test: PASS
+- dependency-free static build: PASS
+- Cordova web synchronization: PASS
+- self-contained standalone generation: PASS, 0 external asset refs
+
+Map artwork review:
+- all 10 route overlays regenerated from current runtime geometry
+- all current enemy centerlines visually follow the authored road artwork
+- Convergence build-pad mismatch found during review and fixed before clean-pass sequence
+
+Canonical Vite production build:
+EXTERNAL/ENVIRONMENT RELEASE GATE — NOT VERIFIED in this container.
+The local vite executable is absent and dependency restoration timed out; exact command output is in ../logs/vite-build-environment-gate.log.
+
+Native Android/iOS compilation/device testing remain external platform release gates.

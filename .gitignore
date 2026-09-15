@@ -1,0 +1,8 @@
+node_modules/
+dist/
+www/
+platforms/
+plugins/
+.DS_Store
+*.log
+Vantage_XP_Tower_Defense_PLAYABLE.html

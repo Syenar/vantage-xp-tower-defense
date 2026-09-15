@@ -1,0 +1,35 @@
+{
+  "mode": "layout-interaction; actual art covered by asset validator + all-towers-live-visual.png",
+  "checks": [
+    {
+      "name": "desktop menu visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "tower placement interaction",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "live wave interaction",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "desktop interaction page errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "mobile Start wave in viewport",
+      "pass": true,
+      "detail": "{'x': 754, 'y': 8.5, 'width': 82, 'height': 34}"
+    },
+    {
+      "name": "mobile Settings visible without scroll",
+      "pass": true,
+      "detail": "{'x': 181, 'y': 293.59375, 'width': 482, 'height': 38}"
+    }
+  ]
+}
