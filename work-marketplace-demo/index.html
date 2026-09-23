@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Interactive prototype for a real-time local work marketplace.">
+  <title>Taskwell — Local work, now or later</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="shell nav">
+      <button class="brand" data-view="home" aria-label="Taskwell home"><span class="brandmark">T</span><span>Taskwell</span></button>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <button class="navlink active" data-view="home">Home</button>
+        <button class="navlink" data-view="people">Find people</button>
+        <button class="navlink" data-view="jobs">Jobs</button>
+        <button class="navlink" data-view="work">Find work</button>
+        <button class="navlink" data-view="messages">Messages</button>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn secondary desktop-only" id="postJobTop">Post a job</button>
+        <button class="iconbtn" id="notifyBtn" title="Notifications">●</button>
+        <button class="avatarbtn" id="profileBtn">SS</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="view active" id="view-home">
+      <div class="shell hero">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">Live local work marketplace</div>
+            <h1>Find the right person.<br><span>Right now, or later.</span></h1>
+            <p>Hire someone who is available now, schedule the worker you want, or post a job and let nearby people apply.</p>
+            <div class="searchbox">
+              <div class="field-inline"><span>⌕</span><input id="heroSearch" placeholder="Painter, moving help, cleaner…"></div>
+              <div class="field-inline"><span>⌖</span><input value="Allentown, PA" aria-label="Location"></div>
+              <button class="btn primary" id="heroSearchBtn">Search</button>
+            </div>
+            <div class="quicklinks" id="heroChips">
+              <button class="chip" data-search="Painting">Painting</button>
+              <button class="chip" data-search="Moving">Moving</button>
+              <button class="chip" data-search="Cleaning">Cleaning</button>
+              <button class="chip" data-search="Assembly">Furniture assembly</button>
+              <button class="chip" data-search="Yard">Yard work</button>
+            </div>
+          </div>
+          <aside class="live-card">
+            <div class="live-head"><div><strong>Available near you</strong><div class="sub">Demo activity</div></div><span class="pulse"></span></div>
+            <div id="miniLive" class="mini-list"></div>
+            <button class="textbtn" data-view="people">See everyone available now →</button>
+          </aside>
+        </div>
+      </div>
+
+      <div class="shell section">
+        <div class="section-head"><div><h2>Explore work</h2><p>One marketplace for immediate, scheduled, and posted work.</p></div></div>
+        <div class="category-grid" id="categoryGrid"></div>
+      </div>
+
+      <div class="shell section">
+        <div class="section-head"><div><h2>Available now</h2><p>Workers who have explicitly turned on live availability.</p></div><button class="textbtn" data-view="people">See all</button></div>
+        <div class="cards" id="homeProviders"></div>
+      </div>
+
+      <div class="shell section">
+        <div class="how-grid">
+          <article><span>1</span><h3>Hire now</h3><p>Choose a nearby worker who is currently available and send an immediate request.</p></article>
+          <article><span>2</span><h3>Schedule your person</h3><p>Found the right worker but they are not live? Request them for a later time.</p></article>
+          <article><span>3</span><h3>Post a job</h3><p>Describe the work once and receive applications from nearby workers and businesses.</p></article>
+        </div>
+      </div>
+
+      <div class="shell section">
+        <div class="trust-banner">
+          <div><div class="eyebrow dark">Marketplace principle</div><h2>You earn your reputation. You don't buy your position.</h2><p>No sponsored workers and no paid search placement. Ranking is based on relevance, availability, distance, and earned marketplace reputation.</p></div>
+          <button class="btn light" id="trustBtn">How trust works</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-people">
+      <div class="shell pagehead"><h1>Find people</h1><p>Browse nearby workers and businesses. Live availability appears when it is real.</p></div>
+      <div class="shell">
+        <div class="toolbar">
+          <input class="input grow" id="peopleSearch" placeholder="Search services, skills, or people">
+          <select class="select" id="availabilityFilter"><option value="all">Any availability</option><option value="now">Available now</option><option value="today">Available today</option></select>
+          <select class="select" id="distanceFilter"><option value="999">Any distance</option><option value="5">Within 5 miles</option><option value="10">Within 10 miles</option></select>
+          <select class="select" id="verifyFilter"><option value="all">Any verification</option><option value="verified">ID verified</option></select>
+        </div>
+        <div class="result-count" id="resultCount"></div>
+        <div class="cards" id="peopleGrid"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-profile">
+      <div class="shell pagehead"><button class="textbtn" id="profileBack">← Back to people</button></div>
+      <div class="shell" id="profileContent"></div>
+    </section>
+
+    <section class="view" id="view-jobs">
+      <div class="shell pagehead"><h1>Jobs</h1><p>Open work posted by customers and businesses.</p></div>
+      <div class="shell two-col">
+        <div class="job-list" id="jobsList"></div>
+        <aside class="side-card"><h3>Need work done?</h3><p>Post the job once and let nearby workers apply.</p><button class="btn primary full" id="postJobSide">Post a job</button></aside>
+      </div>
+    </section>
+
+    <section class="view" id="view-work">
+      <div class="shell pagehead"><h1>Find work</h1><p>Control when you are live, browse nearby jobs, and build one reputation across the marketplace.</p></div>
+      <div class="shell">
+        <div class="availability-card">
+          <div><div class="eyebrow green">Worker controls</div><h2>Available Now</h2><p>Turn this on only when you are ready to receive immediate job requests.</p></div>
+          <button class="toggle" id="availabilityToggle" aria-label="Toggle Available Now"></button>
+        </div>
+        <div class="stats">
+          <div class="stat"><small>Profile views</small><strong>42</strong></div>
+          <div class="stat"><small>Completed jobs</small><strong>18</strong></div>
+          <div class="stat"><small>Rating</small><strong>4.9 ★</strong></div>
+          <div class="stat"><small>Repeat hires</small><strong>7</strong></div>
+        </div>
+        <div class="section-head compact"><div><h2>Jobs near you</h2><p>Demo job feed based on skills and distance.</p></div></div>
+        <div class="job-list" id="workerJobs"></div>
+      </div>
+    </section>
+
+    <section class="view" id="view-messages">
+      <div class="shell pagehead"><h1>Messages</h1><p>Keep job details and scope changes on-platform.</p></div>
+      <div class="shell chat-shell">
+        <aside class="chat-list"><button class="chat-person active"><span class="avatar blue">MJ</span><span><strong>Maria J.</strong><small>Painting request</small></span></button><button class="chat-person"><span class="avatar green">DT</span><span><strong>David T.</strong><small>Assembly</small></span></button></aside>
+        <div class="chat"><div class="chat-title"><strong>Maria J.</strong><span>ID verified · Available now</span></div><div class="chat-body"><div class="bubble">Hi — I can help with the two rooms this afternoon.</div><div class="bubble me">Great. I have the paint already. Can you bring rollers and drop cloths?</div><div class="bubble">Yes, I have those with me.</div></div><div class="chat-compose"><input class="input" id="chatInput" placeholder="Write a message"><button class="btn primary" id="sendChat">Send</button></div></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div class="modal-wrap" id="hireModal"><div class="modal"><button class="modal-x" data-close="hireModal">×</button><div id="hireFormWrap"><div class="eyebrow green">Immediate request</div><h2>Hire <span id="hireName"></span></h2><p class="muted">This prototype simulates the request flow. No payment is taken.</p><label>What do you need help with?<textarea class="textarea" id="hireTask" placeholder="Describe the task, access, tools, and anything important."></textarea></label><div class="form-grid"><label>Expected duration<select class="select full"><option>1 hour</option><option selected>2 hours</option><option>3 hours</option><option>4+ hours</option></select></label><label>Start<select class="select full"><option selected>As soon as possible</option><option>Later today</option><option>Schedule for later</option></select></label></div><button class="btn primary full" id="sendHire">Send job request</button></div><div class="success hidden" id="hireSuccess"><div class="success-icon">✓</div><h2>Request sent</h2><p id="hireSuccessText"></p><button class="btn secondary" data-close="hireModal">Done</button></div></div></div>
+
+<div class="modal-wrap" id="jobModal"><div class="modal"><button class="modal-x" data-close="jobModal">×</button><div id="jobFormWrap"><div class="eyebrow">Open marketplace</div><h2>Post a job</h2><label>Job title<input class="input full" id="jobTitle" placeholder="Example: Help unload a moving truck"></label><label>Description<textarea class="textarea" id="jobDesc" placeholder="Describe the work, timing, and anything workers should know."></textarea></label><div class="form-grid"><label>Budget<input class="input full" id="jobBudget" placeholder="$120 or $30/hr"></label><label>When<select class="select full"><option>As soon as possible</option><option>Today</option><option>This week</option><option>Choose a date</option></select></label></div><button class="btn primary full" id="publishJob">Publish job</button></div><div class="success hidden" id="jobSuccess"><div class="success-icon">✓</div><h2>Job posted</h2><p>Nearby workers can now discover and apply to the job in this prototype.</p><button class="btn primary" id="viewPostedJob">View jobs</button></div></div></div>
+
+<div class="modal-wrap" id="trustModal"><div class="modal"><button class="modal-x" data-close="trustModal">×</button><div class="eyebrow">Trust system</div><h2>Verification is explicit</h2><div class="trust-list"><div><strong>ID Verified</strong><p>Identity verification is separate from a criminal background check.</p></div><div><strong>Background Checked</strong><p>Shown only when a separate background screening has actually been completed.</p></div><div><strong>No paid ranking</strong><p>Workers cannot buy a better organic position.</p></div></div></div></div>
+<div class="toast" id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
