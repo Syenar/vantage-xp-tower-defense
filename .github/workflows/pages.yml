@@ -29,6 +29,7 @@ jobs:
           mkdir -p _site
           cp index.html play.html manifest.webmanifest _site/
           cp -R assets _site/assets
+          cp -R work-marketplace-demo _site/work-marketplace-demo
           cp .nojekyll _site/.nojekyll
 
       - name: Setup Pages
